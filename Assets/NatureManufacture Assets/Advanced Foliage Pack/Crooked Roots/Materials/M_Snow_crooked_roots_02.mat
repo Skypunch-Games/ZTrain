@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Snow_crooked_roots_02
+  m_Shader: {fileID: 4800000, guid: f87741369955173458f5f486204c7287, type: 3}
+  m_ShaderKeywords: _ALPHATEST_ON _METALLICGLOSSMAP _NORMALMAP _USEDYNAMICSNOWTSTATICMASKF_ON
+    _USESNOW_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: a7501fc6e427b9a4684d389a2cfd3d5a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMapAlbedoRNyGNxA:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: c903c66dc98ce8b42866a0a6f4fc6407, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetalicRAmbientOcclusionGSmoothnessA:
+        m_Texture: {fileID: 2800000, guid: ed05d8046927c7a479947d67d5ba2ff9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: ed05d8046927c7a479947d67d5ba2ff9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: ed05d8046927c7a479947d67d5ba2ff9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowAlbedoRGB:
+        m_Texture: {fileID: 2800000, guid: 61d722b8b3707b8489b91ed4af7c8918, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowHeightG:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowMaskB:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowMetalicRAmbientOcclusionGSmothnessA:
+        m_Texture: {fileID: 2800000, guid: f7b5b6761ee24c64284f43f3199a226c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowNormalRGB:
+        m_Texture: {fileID: 2800000, guid: a4e60d649c7f3f444b01ffe03e9d6658, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AmbientOcclusionPower: 1
+    - _BumpScale: 1
+    - _Cutoff: 0.4
+    - _DetailAlbedoPower: 0
+    - _DetailNormalMapScale: 0
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _MetalicPower: 1
+    - _Metallic: 0
+    - _MetallicPower: 1
+    - _Mode: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessPower: 1
+    - _SmoothnessTextureChannel: 0
+    - _SmothnessPower: 1
+    - _SnowAmbientOcclusionPower: 1
+    - _SnowHardness: 5
+    - _SnowHeightSharpness: 0
+    - _SnowMaskPower: 1
+    - _SnowMaxAngle: 90
+    - _SnowMetalicPower: 1
+    - _SnowMetallicPower: 1
+    - _SnowNormalCoverHardness: 2.63
+    - _SnowNormalScale: 1
+    - _SnowSmoothnessPower: 1
+    - _SnowTiling: 1
+    - _Snow_Amount: 2
+    - _Snow_AmountGrowSpeed: 2
+    - _Snow_Min_Height: -1000
+    - _Snow_Min_Height_Blending: 100
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TriplanarCoverFalloff: 8
+    - _UVSec: 0
+    - _UseDynamicSnowTStaticMaskF: 1
+    - _UseSnow: 1
+    - _ZWrite: 1
+    - __dirty: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SnowAlbedoColor: {r: 1, g: 1, b: 1, a: 1}
