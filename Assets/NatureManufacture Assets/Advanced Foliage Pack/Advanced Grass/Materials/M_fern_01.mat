@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_fern_01
+  m_Shader: {fileID: 4800000, guid: e7e3fa6205f1c3b4999f678b922e5301, type: 3}
+  m_ShaderKeywords: _ALPHATEST_ON _METALLICGLOSSMAP _NORMALMAP _WIND_VERTEXCOLORR_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - <noninit>:
+        m_Texture: {fileID: 2800000, guid: 0997af75983c6ef4ea3280275cd479ce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AmbientOcclusionG:
+        m_Texture: {fileID: 2800000, guid: 71ca5d8b843410f4893c2a1354c52e17, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 59b247d5a834d2d43a17e09101ebc880, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 00ff933a9e380a949bdb448b0a62a3da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WindNoise:
+        m_Texture: {fileID: 2800000, guid: cdec882b86a6f9b46b4c79d6a9891f1c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - <noninit>: 1
+    - _AmbientOcclusionPower: 1
+    - _BackFaceMirrorNormal: 0
+    - _BumpScale: 1
+    - _ColorNoiseSpread: 15
+    - _CullFarDistance: 5
+    - _CullFarStart: 60
+    - _Cutoff: 0.32
+    - _Drag: 20
+    - _InitialBend: 1
+    - _MaskClipValue: 0.3
+    - _MaxWindbending: 1
+    - _MirrorNormal: 0
+    - _NoiseWindSpeed: 0.85
+    - _ShiverDirectionality: 0.83
+    - _ShiverDrag: 0.01
+    - _SmoothnessPower: 0.5
+    - _Specular: 0.136
+    - _Stiffness: 0.88
+    - _TouchReactActive: 0
+    - _TransAmbient: 0.2
+    - _TransDirect: 1
+    - _TransNormalDistortion: 0.1
+    - _TransScattering: 2
+    - _TransShadow: 0.9
+    - _Translucency: 1
+    - _WindColorInfluence: 0.03
+    - _WindColorThreshold: 0.3
+    - _WindNoisePower: 3
+    - _WindNormalInfluence: 0.2
+    - _WindPowerDirectionX: 1
+    - _WindPowerDirectionZ: 1
+    - _Wind_VertexColorR: 1
+    - __dirty: 0
+    m_Colors:
+    - <noninit>: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
+    - _DryColor: {r: 0.8602941, g: 0.8221653, b: 0.740106, a: 1}
+    - _HealthyColor: {r: 1, g: 1, b: 1, a: 1}
+    - _NewNormal: {r: 0, g: 0, b: 0, a: 0}
+    - _WindColorInfluence: {r: 0.3, g: 0.3, b: 0.3, a: 0}
+    - _WindColorMultiply: {r: 1.4, g: 1.4, b: 1.4, a: 0}
+    - _WindNoisetilling: {r: 0.007, g: 0.007, b: 0, a: 0}
