@@ -1,0 +1,2442 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1187c6f5a2aa584084ba67ab2162dbf, type: 3}
+  m_Name: DemoVegetationPackage
+  m_EditorClassIdentifier: 
+  PackageName: Demo package
+  VegetationInfoList:
+  - Name: DefaultGrassPatch
+    VegetationItemID: 3c4ddd77-0c62-4313-849d-f3bf06829ca8
+    EnableRuntimeSpawn: 1
+    PrefabType: 1
+    ShaderType: 3
+    VegetationPrefab: {fileID: 0}
+    VegetationGuid: 
+    VegetationTexture: {fileID: 2800000, guid: 1210d3542c80afd499e8f2c953d6b3df, type: 3}
+    VegetationTextureGuid: 
+    VegetationType: 0
+    VegetationRenderType: 2
+    VegetationScaleType: 0
+    MinScale: 2.0268285
+    MaxScale: 2.4268286
+    MinVectorScale: {x: 0.8, y: 0.8, z: 0.8}
+    MaxVectorScale: {x: 1.2, y: 1.2, z: 1.2}
+    UseAutomaticDensityScale: 0
+    LodIndex: 2
+    Seed: 0
+    LODFactor: 10
+    DisableLOD: 0
+    DisableShadows: 0
+    VegetationTumbnail: {fileID: 0}
+    VegetationTumbnailGuid: 
+    UseVegetationMasksOnStorage: 0
+    ColliderType: 0
+    ColliderRadius: 0.25
+    ColliderHeight: 2
+    ColliderOffset: {x: 0, y: 0, z: 0}
+    ColliderTrigger: 0
+    ColliderMesh: {fileID: 0}
+    ColliderMeshGUID: 
+    ColliderUseForBake: 1
+    NavMeshObstacleType: 0
+    NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
+    NavMeshObstacleSize: {x: 1, y: 1, z: 1}
+    NavMeshObstacleRadius: 0.5
+    NavMeshObstacleHeight: 2
+    NavMeshObstacleCarve: 1
+    UseTouchReact: 0
+    UseBillboards: 1
+    BillboardQuality: 0
+    BillboardTexture: {fileID: 0}
+    BillboardTextureGuid: 
+    BillboardNormalTexture: {fileID: 0}
+    BillboardNormalTextureGuid: 
+    BillboardLodIndex: 0
+    BillboardColorSpace: -1
+    BillboardBrightness: 1
+    BillboardCutoff: 0.2
+    BillboardTintColor: {r: 1, g: 1, b: 1, a: 1}
+    BillboardAtlasBackgroundColor: {r: 0.3137255, g: 0.3137255, b: 0.078431375, a: 1}
+    BillboardMipmapBias: -2
+    ColorTint1: {r: 0.93333334, g: 0.9490196, b: 0.64705884, a: 1}
+    ColorTint2: {r: 0.93333334, g: 0.9490196, b: 0.64705884, a: 1}
+    Brightness: 1
+    RandomDarkening: 0.29
+    RootAmbient: 0.24
+    ColorAreaScale: 30
+    Hue: {r: 1, g: 0.5, b: 0, a: 0.09765625}
+    TextureCutoff: 0.2
+    YScale: 1
+    SampleDistance: 0.9
+    Density: 1
+    UseCollisionDetection: 0
+    VegetationSteepnessType: 0
+    VegetationHeightType: 0
+    MinimumSteepness: 0
+    MaximumSteepness: 35
+    SteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    HeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    HeightCurveArray:
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    SteepnessCurveArray:
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    MinCurveHeight: 0
+    MaxCurveHeight: 1000
+    AutomaticCurveMaxHeight: 1
+    MinimumHeight: 3
+    MaximumHeight: 1000
+    UseHeightLevel: 1
+    UseAngle: 1
+    RandomizePosition: 1
+    RandomPositionRelativeDistance: 1
+    Offset: {x: 0, y: -0.05, z: 0}
+    RotationOffset: {x: 0, y: 0, z: 0}
+    Rotation: 3
+    UsePerlinMask: 1
+    PerlinCutoff: 0.48317206
+    PerlinScale: 5
+    InversePerlinMask: 1
+    PerlinOffset: {x: 0, y: 0}
+    UseExcludeTextueMask: 1
+    ExcludeTextureMaskList:
+    - TextureLayer: 5
+      MinimumValue: 0.25200003
+      MaximumValue: 1
+    UseIncludeTextueMask: 0
+    IncludeTextureMaskList: []
+    UseVegetationMask: 0
+    VegetationTypeIndex: 1
+    UseExcludeTextueMaskRules: 0
+    ExcludeTextureMaskRuleList: []
+    UseDensityTextueMaskRules: 0
+    DensityTextureMaskRuleList: []
+    UseScaleTextueMaskRules: 0
+    ScaleTextureMaskRuleList: []
+    UseIncludeTextueMaskRules: 0
+    IncludeTextureMaskRuleList: []
+    UseIncludeDetailMaskRules: 0
+    IncludeDetailMaskRuleList: []
+    IncludeDetailLayer: 0
+    Bounds:
+      m_Center: {x: -0.0071046352, y: 0.2, z: 1.0219895}
+      m_Extent: {x: 0.6803982, y: 0.2, z: 0.6823417}
+    Volume: 0.7428225
+  - Name: DefaultGrassPatch
+    VegetationItemID: f5ceb632-891d-41e4-8d1c-371132e19bb7
+    EnableRuntimeSpawn: 1
+    PrefabType: 1
+    ShaderType: 3
+    VegetationPrefab: {fileID: 0}
+    VegetationGuid: 
+    VegetationTexture: {fileID: 2800000, guid: 6dba18552b643cd41a99197cab3eda02, type: 3}
+    VegetationTextureGuid: 
+    VegetationType: 0
+    VegetationRenderType: 2
+    VegetationScaleType: 0
+    MinScale: 2.2397318
+    MaxScale: 2.2397318
+    MinVectorScale: {x: 0.8, y: 0.8, z: 0.8}
+    MaxVectorScale: {x: 1.2, y: 1.2, z: 1.2}
+    UseAutomaticDensityScale: 0
+    LodIndex: 2
+    Seed: 0
+    LODFactor: 10
+    DisableLOD: 0
+    DisableShadows: 0
+    VegetationTumbnail: {fileID: 0}
+    VegetationTumbnailGuid: 
+    UseVegetationMasksOnStorage: 0
+    ColliderType: 0
+    ColliderRadius: 0.25
+    ColliderHeight: 2
+    ColliderOffset: {x: 0, y: 0, z: 0}
+    ColliderTrigger: 0
+    ColliderMesh: {fileID: 0}
+    ColliderMeshGUID: 
+    ColliderUseForBake: 1
+    NavMeshObstacleType: 0
+    NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
+    NavMeshObstacleSize: {x: 1, y: 1, z: 1}
+    NavMeshObstacleRadius: 0.5
+    NavMeshObstacleHeight: 2
+    NavMeshObstacleCarve: 1
+    UseTouchReact: 0
+    UseBillboards: 1
+    BillboardQuality: 0
+    BillboardTexture: {fileID: 0}
+    BillboardTextureGuid: 
+    BillboardNormalTexture: {fileID: 0}
+    BillboardNormalTextureGuid: 
+    BillboardLodIndex: 0
+    BillboardColorSpace: -1
+    BillboardBrightness: 1
+    BillboardCutoff: 0.2
+    BillboardTintColor: {r: 1, g: 1, b: 1, a: 1}
+    BillboardAtlasBackgroundColor: {r: 0.3137255, g: 0.3137255, b: 0.078431375, a: 1}
+    BillboardMipmapBias: -2
+    ColorTint1: {r: 0.9019608, g: 0.91764706, b: 0.6, a: 1}
+    ColorTint2: {r: 0.9019608, g: 0.91764706, b: 0.6, a: 1}
+    Brightness: 1
+    RandomDarkening: 0.501
+    RootAmbient: 0.274
+    ColorAreaScale: 114
+    Hue: {r: 1, g: 0.5, b: 0, a: 0.09765625}
+    TextureCutoff: 0.2
+    YScale: 1
+    SampleDistance: 1.4
+    Density: 1
+    UseCollisionDetection: 0
+    VegetationSteepnessType: 0
+    VegetationHeightType: 0
+    MinimumSteepness: 0
+    MaximumSteepness: 35
+    SteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    HeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    HeightCurveArray:
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    SteepnessCurveArray:
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    - 0.5
+    MinCurveHeight: 0
+    MaxCurveHeight: 1000
+    AutomaticCurveMaxHeight: 1
+    MinimumHeight: 3
+    MaximumHeight: 10000
+    UseHeightLevel: 1
+    UseAngle: 1
+    RandomizePosition: 1
+    RandomPositionRelativeDistance: 1
+    Offset: {x: 0, y: -0.05, z: 0}
+    RotationOffset: {x: 0, y: 0, z: 0}
+    Rotation: 3
+    UsePerlinMask: 1
+    PerlinCutoff: 0.578
+    PerlinScale: 5
+    InversePerlinMask: 0
+    PerlinOffset: {x: 0, y: 0}
+    UseExcludeTextueMask: 1
+    ExcludeTextureMaskList:
+    - TextureLayer: 5
+      MinimumValue: 0.113125
+      MaximumValue: 1
+    UseIncludeTextueMask: 0
+    IncludeTextureMaskList: []
+    UseVegetationMask: 0
+    VegetationTypeIndex: 1
+    UseExcludeTextueMaskRules: 0
+    ExcludeTextureMaskRuleList: []
+    UseDensityTextueMaskRules: 0
+    DensityTextureMaskRuleList: []
+    UseScaleTextueMaskRules: 0
+    ScaleTextureMaskRuleList: []
+    UseIncludeTextueMaskRules: 0
+    IncludeTextureMaskRuleList: []
+    UseIncludeDetailMaskRules: 0
+    IncludeDetailMaskRuleList: []
+    IncludeDetailLayer: 0
+    Bounds:
+      m_Center: {x: -0.0071046352, y: 0.2, z: 1.0219895}
+      m_Extent: {x: 0.6803982, y: 0.2, z: 0.6823417}
+    Volume: 0.7428225
+  - Name: pf_boulder_02_015
+    VegetationItemID: 7303bcc2-1a5f-4308-beb3-b17cc2bc2822
+    EnableRuntimeSpawn: 1
+    PrefabType: 0
+    ShaderType: 1
+    VegetationPrefab: {fileID: 100002, guid: b6286938954000e4bad9aeb93ef3ca30, type: 2}
+    VegetationGuid: 
+    VegetationTexture: {fileID: 0}
+    VegetationTextureGuid: 
+    VegetationType: 3
+    VegetationRenderType: 0
+    VegetationScaleType: 0
+    MinScale: 0.3
+    MaxScale: 0.5
+    MinVectorScale: {x: 0.83, y: 0.8, z: 0.8}
+    MaxVectorScale: {x: 1.23, y: 1.2, z: 1.2}
+    UseAutomaticDensityScale: 0
+    LodIndex: 2
+    Seed: 0
+    LODFactor: 1
+    DisableLOD: 0
+    DisableShadows: 0
+    VegetationTumbnail: {fileID: 0}
+    VegetationTumbnailGuid: 
+    UseVegetationMasksOnStorage: 0
+    ColliderType: 0
+    ColliderRadius: 0.25
+    ColliderHeight: 2
+    ColliderOffset: {x: 0, y: 0, z: 0}
+    ColliderTrigger: 0
+    ColliderMesh: {fileID: 0}
+    ColliderMeshGUID: 
+    ColliderUseForBake: 1
+    NavMeshObstacleType: 0
+    NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
+    NavMeshObstacleSize: {x: 1, y: 1, z: 1}
+    NavMeshObstacleRadius: 0.5
+    NavMeshObstacleHeight: 2
+    NavMeshObstacleCarve: 1
+    UseTouchReact: 1
+    UseBillboards: 1
+    BillboardQuality: 0
+    BillboardTexture: {fileID: 2800000, guid: 0360b0d70b563b44ca5678fffe309b59, type: 3}
+    BillboardTextureGuid: 
+    BillboardNormalTexture: {fileID: 2800000, guid: 8c2ce7e28d2fd4c4caf76aa66f482171,
+      type: 3}
+    BillboardNormalTextureGuid: 
+    BillboardLodIndex: 0
+    BillboardColorSpace: -1
+    BillboardBrightness: 1
+    BillboardCutoff: 0.2
+    BillboardTintColor: {r: 1, g: 1, b: 1, a: 1}
+    BillboardAtlasBackgroundColor: {r: 0.3137255, g: 0.3137255, b: 0.078431375, a: 1}
+    BillboardMipmapBias: -2
+    ColorTint1: {r: 1, g: 1, b: 1, a: 1}
+    ColorTint2: {r: 1, g: 1, b: 1, a: 1}
+    Brightness: 1
+    RandomDarkening: 0.31
+    RootAmbient: 0.63
+    ColorAreaScale: 100
+    Hue: {r: 1, g: 0.5, b: 0, a: 0.09765625}
+    TextureCutoff: 0.2
+    YScale: 1
+    SampleDistance: 17.5
+    Density: 1
+    UseCollisionDetection: 0
+    VegetationSteepnessType: 0
+    VegetationHeightType: 0
+    MinimumSteepness: 0
+    MaximumSteepness: 23.83117
+    SteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.8181818
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0.40000153
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    HeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.22222221
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9041748
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    HeightCurveArray:
+    - 0.22222221
+    - 0.22226563
+    - 0.2223954
+    - 0.22261077
+    - 0.22291099
+    - 0.22329529
+    - 0.22376293
+    - 0.22431315
+    - 0.22494522
+    - 0.22565836
+    - 0.22645181
+    - 0.22732486
+    - 0.22827671
+    - 0.22930665
+    - 0.2304139
+    - 0.23159772
+    - 0.23285735
+    - 0.23419203
+    - 0.23560102
+    - 0.23708357
+    - 0.23863891
+    - 0.24026631
+    - 0.241965
+    - 0.24373424
+    - 0.24557327
+    - 0.24748133
+    - 0.24945769
+    - 0.25150156
+    - 0.25361222
+    - 0.25578892
+    - 0.2580309
+    - 0.26033738
+    - 0.26270765
+    - 0.26514095
+    - 0.26763648
+    - 0.27019355
+    - 0.27281135
+    - 0.27548918
+    - 0.27822626
+    - 0.28102186
+    - 0.2838752
+    - 0.2867855
+    - 0.2897521
+    - 0.29277417
+    - 0.29585096
+    - 0.29898176
+    - 0.3021658
+    - 0.3054023
+    - 0.30869055
+    - 0.31202975
+    - 0.3154192
+    - 0.3188581
+    - 0.32234573
+    - 0.32588133
+    - 0.32946414
+    - 0.3330934
+    - 0.33676836
+    - 0.3404883
+    - 0.34425244
+    - 0.34806
+    - 0.3519103
+    - 0.35580254
+    - 0.35973597
+    - 0.3637098
+    - 0.36772335
+    - 0.37177587
+    - 0.3758665
+    - 0.37999463
+    - 0.3841594
+    - 0.38836008
+    - 0.39259595
+    - 0.39686626
+    - 0.4011702
+    - 0.40550706
+    - 0.4098761
+    - 0.41427654
+    - 0.4187076
+    - 0.42316866
+    - 0.4276588
+    - 0.43217734
+    - 0.43672353
+    - 0.4412966
+    - 0.44589585
+    - 0.45052046
+    - 0.4551697
+    - 0.45984286
+    - 0.4645391
+    - 0.46925777
+    - 0.47399804
+    - 0.47875917
+    - 0.48354042
+    - 0.48834106
+    - 0.4931603
+    - 0.49799743
+    - 0.5028516
+    - 0.50772226
+    - 0.5126084
+    - 0.51750946
+    - 0.5224246
+    - 0.52735305
+    - 0.53229415
+    - 0.53724706
+    - 0.542211
+    - 0.54718536
+    - 0.5521693
+    - 0.55716205
+    - 0.5621629
+    - 0.56717104
+    - 0.57218575
+    - 0.5772063
+    - 0.58223194
+    - 0.58726186
+    - 0.5922954
+    - 0.59733164
+    - 0.60237
+    - 0.6074097
+    - 0.61244994
+    - 0.61748993
+    - 0.62252903
+    - 0.6275664
+    - 0.6326013
+    - 0.637633
+    - 0.64266074
+    - 0.64768374
+    - 0.6527013
+    - 0.6577127
+    - 0.662717
+    - 0.66771364
+    - 0.67270184
+    - 0.67768073
+    - 0.6826497
+    - 0.6876079
+    - 0.6925546
+    - 0.697489
+    - 0.7024106
+    - 0.7073183
+    - 0.7122115
+    - 0.71708953
+    - 0.7219515
+    - 0.7267967
+    - 0.7316244
+    - 0.73643386
+    - 0.7412243
+    - 0.7459949
+    - 0.7507451
+    - 0.755474
+    - 0.76018083
+    - 0.7648649
+    - 0.76952547
+    - 0.7741617
+    - 0.77877295
+    - 0.7833584
+    - 0.78791726
+    - 0.7924489
+    - 0.7969524
+    - 0.8014271
+    - 0.8058724
+    - 0.8102873
+    - 0.81467116
+    - 0.8190232
+    - 0.8233427
+    - 0.8276288
+    - 0.8318809
+    - 0.8360982
+    - 0.8402799
+    - 0.84442526
+    - 0.8485336
+    - 0.85260403
+    - 0.8566359
+    - 0.8606285
+    - 0.8645809
+    - 0.8684926
+    - 0.8723626
+    - 0.8761903
+    - 0.8799749
+    - 0.8837157
+    - 0.8874118
+    - 0.89106256
+    - 0.89466727
+    - 0.89822507
+    - 0.9017353
+    - 0.90519714
+    - 0.90860987
+    - 0.9119727
+    - 0.91528493
+    - 0.9185458
+    - 0.9217545
+    - 0.92491037
+    - 0.92801255
+    - 0.9310603
+    - 0.93405306
+    - 0.9369898
+    - 0.93987
+    - 0.94269276
+    - 0.94545734
+    - 0.9481631
+    - 0.95080906
+    - 0.9533947
+    - 0.9559192
+    - 0.9583818
+    - 0.9607817
+    - 0.96311814
+    - 0.9653905
+    - 0.96759784
+    - 0.96973956
+    - 0.9718148
+    - 0.97382295
+    - 0.9757631
+    - 0.97763455
+    - 0.97943664
+    - 0.98116845
+    - 0.9828294
+    - 0.98441863
+    - 0.9859354
+    - 0.98737895
+    - 0.98874855
+    - 0.9900434
+    - 0.99126285
+    - 0.99240613
+    - 0.9934724
+    - 0.99446094
+    - 0.995371
+    - 0.9962019
+    - 0.9969528
+    - 0.9976229
+    - 0.99821156
+    - 0.998718
+    - 0.9991415
+    - 0.99948126
+    - 0.9997364
+    - 0.9999064
+    - 0.99999046
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    SteepnessCurveArray:
+    - 0.8181818
+    - 0.81816274
+    - 0.81810564
+    - 0.81801087
+    - 0.8178787
+    - 0.81770945
+    - 0.81750345
+    - 0.8172609
+    - 0.8169822
+    - 0.8166676
+    - 0.8163174
+    - 0.8159319
+    - 0.8155114
+    - 0.8150562
+    - 0.8145666
+    - 0.8140429
+    - 0.81348544
+    - 0.81289446
+    - 0.8122703
+    - 0.8116132
+    - 0.8109235
+    - 0.8102015
+    - 0.8094475
+    - 0.8086618
+    - 0.8078447
+    - 0.8069965
+    - 0.8061175
+    - 0.80520797
+    - 0.8042682
+    - 0.80329853
+    - 0.8022993
+    - 0.8012707
+    - 0.8002131
+    - 0.7991268
+    - 0.79801214
+    - 0.7968693
+    - 0.79569864
+    - 0.79450047
+    - 0.79327506
+    - 0.79202276
+    - 0.7907438
+    - 0.7894386
+    - 0.78810734
+    - 0.7867503
+    - 0.7853679
+    - 0.78396034
+    - 0.782528
+    - 0.7810711
+    - 0.77959
+    - 0.77808493
+    - 0.77655625
+    - 0.77500427
+    - 0.7734292
+    - 0.7718314
+    - 0.7702112
+    - 0.7685689
+    - 0.7669047
+    - 0.765219
+    - 0.763512
+    - 0.76178414
+    - 0.76003563
+    - 0.75826675
+    - 0.7564779
+    - 0.75466925
+    - 0.7528411
+    - 0.7509939
+    - 0.74912786
+    - 0.7472432
+    - 0.74534035
+    - 0.7434195
+    - 0.74148107
+    - 0.7395253
+    - 0.73755246
+    - 0.73556286
+    - 0.7335568
+    - 0.7315346
+    - 0.72949654
+    - 0.7274429
+    - 0.72537404
+    - 0.7232902
+    - 0.72119176
+    - 0.7190789
+    - 0.716952
+    - 0.7148114
+    - 0.7126573
+    - 0.71049
+    - 0.7083099
+    - 0.70611715
+    - 0.7039122
+    - 0.70169526
+    - 0.6994667
+    - 0.69722676
+    - 0.69497573
+    - 0.6927139
+    - 0.69044167
+    - 0.6881592
+    - 0.68586695
+    - 0.6835651
+    - 0.6812539
+    - 0.67893386
+    - 0.67660505
+    - 0.6742679
+    - 0.6719226
+    - 0.6695696
+    - 0.66720915
+    - 0.6648415
+    - 0.6624669
+    - 0.66008574
+    - 0.65769833
+    - 0.65530497
+    - 0.6529059
+    - 0.65050143
+    - 0.6480919
+    - 0.64567757
+    - 0.6432587
+    - 0.6408357
+    - 0.6384088
+    - 0.63597834
+    - 0.63354456
+    - 0.6311078
+    - 0.6286683
+    - 0.6262265
+    - 0.6237825
+    - 0.6213368
+    - 0.6188896
+    - 0.61644113
+    - 0.6139918
+    - 0.61154187
+    - 0.60909164
+    - 0.6066414
+    - 0.6041915
+    - 0.60174215
+    - 0.59929377
+    - 0.5968465
+    - 0.59440076
+    - 0.59195685
+    - 0.589515
+    - 0.5870755
+    - 0.5846387
+    - 0.58220494
+    - 0.5797745
+    - 0.57734764
+    - 0.5749246
+    - 0.5725058
+    - 0.5700914
+    - 0.5676819
+    - 0.56527746
+    - 0.5628784
+    - 0.560485
+    - 0.5580976
+    - 0.5557164
+    - 0.55334187
+    - 0.5509742
+    - 0.54861367
+    - 0.54626065
+    - 0.54391545
+    - 0.5415783
+    - 0.5392495
+    - 0.53692937
+    - 0.53461826
+    - 0.5323163
+    - 0.53002405
+    - 0.5277417
+    - 0.52546936
+    - 0.52320755
+    - 0.5209566
+    - 0.5187166
+    - 0.516488
+    - 0.51427114
+    - 0.5120661
+    - 0.50987345
+    - 0.5076933
+    - 0.50552607
+    - 0.50337195
+    - 0.5012313
+    - 0.49910438
+    - 0.49699154
+    - 0.4948931
+    - 0.49280924
+    - 0.4907404
+    - 0.4886868
+    - 0.48664874
+    - 0.48462653
+    - 0.48262048
+    - 0.48063087
+    - 0.478658
+    - 0.4767022
+    - 0.47476375
+    - 0.47284293
+    - 0.47094008
+    - 0.46905547
+    - 0.4671894
+    - 0.46534216
+    - 0.46351406
+    - 0.46170542
+    - 0.45991656
+    - 0.45814764
+    - 0.45639914
+    - 0.45467126
+    - 0.4529643
+    - 0.4512786
+    - 0.44961444
+    - 0.4479721
+    - 0.44635186
+    - 0.4447541
+    - 0.44317907
+    - 0.44162706
+    - 0.44009835
+    - 0.4385933
+    - 0.4371122
+    - 0.43565533
+    - 0.43422294
+    - 0.4328154
+    - 0.431433
+    - 0.43007594
+    - 0.4287447
+    - 0.42743945
+    - 0.42616054
+    - 0.42490822
+    - 0.42368284
+    - 0.42248467
+    - 0.42131403
+    - 0.42017117
+    - 0.41905648
+    - 0.41797018
+    - 0.41691256
+    - 0.415884
+    - 0.41488472
+    - 0.4139151
+    - 0.41297534
+    - 0.41206583
+    - 0.4111868
+    - 0.41033858
+    - 0.40952146
+    - 0.40873575
+    - 0.40798178
+    - 0.40725973
+    - 0.40657008
+    - 0.405913
+    - 0.40528885
+    - 0.4046978
+    - 0.40414035
+    - 0.4036167
+    - 0.4031271
+    - 0.40267187
+    - 0.4022514
+    - 0.4018659
+    - 0.40151566
+    - 0.40120107
+    - 0.4009224
+    - 0.40067986
+    - 0.40047377
+    - 0.40030456
+    - 0.4001724
+    - 0.40007767
+    - 0.40002054
+    MinCurveHeight: 0
+    MaxCurveHeight: 1000
+    AutomaticCurveMaxHeight: 1
+    MinimumHeight: 0
+    MaximumHeight: 1181.8181
+    UseHeightLevel: 1
+    UseAngle: 1
+    RandomizePosition: 1
+    RandomPositionRelativeDistance: 1
+    Offset: {x: 0, y: 0, z: 0}
+    RotationOffset: {x: 0, y: 1, z: 0}
+    Rotation: 0
+    UsePerlinMask: 1
+    PerlinCutoff: 0.467
+    PerlinScale: 5
+    InversePerlinMask: 0
+    PerlinOffset: {x: 0, y: 0}
+    UseExcludeTextueMask: 1
+    ExcludeTextureMaskList:
+    - TextureLayer: 5
+      MinimumValue: 0.1
+      MaximumValue: 1
+    UseIncludeTextueMask: 0
+    IncludeTextureMaskList: []
+    UseVegetationMask: 0
+    VegetationTypeIndex: 1
+    UseExcludeTextueMaskRules: 0
+    ExcludeTextureMaskRuleList:
+    - MaskId: 4dc6793f-9c22-4a87-beaa-1fc90316e827
+      MinDensity: 0.1
+      MaxDensity: 1
+      ScaleMultiplier: 1
+      DensityMultiplier: 1
+      TextureMaskPropertiesList:
+      - TextureMaskPropertyType: 2
+        PropertyName: Select color channel
+        PropertyDescription: Select color channel
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 3
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        StringList: []
+    UseDensityTextueMaskRules: 0
+    DensityTextureMaskRuleList: []
+    UseScaleTextueMaskRules: 0
+    ScaleTextureMaskRuleList: []
+    UseIncludeTextueMaskRules: 0
+    IncludeTextureMaskRuleList: []
+    UseIncludeDetailMaskRules: 0
+    IncludeDetailMaskRuleList: []
+    IncludeDetailLayer: 0
+    Bounds:
+      m_Center: {x: 74.15582, y: -0.97524095, z: 16.827559}
+      m_Extent: {x: 2.4355125, y: 1.8954418, z: 2.6118221}
+    Volume: 96.457146
+  UseTerrainTextures: 1
+  TerrainTextureList:
+  - Texture: {fileID: 2800000, guid: de5cc7c4241bb9c46a87ed39b7d10005, type: 3}
+    TextureGUID: 
+    TextureNormals: {fileID: 2800000, guid: 0ea4eb0de0c23b54abde5b15775d0d33, type: 3}
+    TextureNormalsGUID: 
+    TextureOcclusion: {fileID: 0}
+    TextureOcclusionGUID: 
+    TextureHeightMap: {fileID: 0}
+    TextureHeightMapGUID: 
+    TileSize: {x: 50, y: 50}
+    offset: {x: 0, y: 0}
+  - Texture: {fileID: 2800000, guid: c0afc3db06067e74d927639bbc04ae4e, type: 3}
+    TextureGUID: 
+    TextureNormals: {fileID: 2800000, guid: d1a4190cdf5305443b36f6cd2498dd93, type: 3}
+    TextureNormalsGUID: 
+    TextureOcclusion: {fileID: 0}
+    TextureOcclusionGUID: 
+    TextureHeightMap: {fileID: 0}
+    TextureHeightMapGUID: 
+    TileSize: {x: 5, y: 5}
+    offset: {x: 0, y: 0}
+  - Texture: {fileID: 2800000, guid: d2cebf7413e3c944281ee66dfe64149f, type: 3}
+    TextureGUID: 
+    TextureNormals: {fileID: 2800000, guid: 0c9bacd327357a94eb7663433cae1743, type: 3}
+    TextureNormalsGUID: 
+    TextureOcclusion: {fileID: 0}
+    TextureOcclusionGUID: 
+    TextureHeightMap: {fileID: 0}
+    TextureHeightMapGUID: 
+    TileSize: {x: 50, y: 50}
+    offset: {x: 0, y: 0}
+  - Texture: {fileID: 2800000, guid: 73543829ed9578546885ae7f34384cd7, type: 3}
+    TextureGUID: 
+    TextureNormals: {fileID: 2800000, guid: 755731fe0fa883748860f1c58877ab0f, type: 3}
+    TextureNormalsGUID: 
+    TextureOcclusion: {fileID: 0}
+    TextureOcclusionGUID: 
+    TextureHeightMap: {fileID: 0}
+    TextureHeightMapGUID: 
+    TileSize: {x: 15, y: 15}
+    offset: {x: 0, y: 0}
+  - Texture: {fileID: 2800000, guid: f5d1de47f0f760544a5596ceb8cc895f, type: 3}
+    TextureGUID: 
+    TextureNormals: {fileID: 2800000, guid: af579c7a89d15d24eb8c925a43a236cf, type: 3}
+    TextureNormalsGUID: 
+    TextureOcclusion: {fileID: 0}
+    TextureOcclusionGUID: 
+    TextureHeightMap: {fileID: 0}
+    TextureHeightMapGUID: 
+    TileSize: {x: 15, y: 15}
+    offset: {x: 0, y: 0}
+  - Texture: {fileID: 2800000, guid: 9094edcf722b9e945a30556b7b3c2267, type: 3}
+    TextureGUID: 
+    TextureNormals: {fileID: 2800000, guid: 76009dac73d240246aa8d95e1737bc1d, type: 3}
+    TextureNormalsGUID: 
+    TextureOcclusion: {fileID: 0}
+    TextureOcclusionGUID: 
+    TextureHeightMap: {fileID: 0}
+    TextureHeightMapGUID: 
+    TileSize: {x: 1.5, y: 1.5}
+    offset: {x: 0, y: 0}
+  - Texture: {fileID: 2800000, guid: 76a07bcaabfcbc540827c83b89b5d443, type: 3}
+    TextureGUID: 
+    TextureNormals: {fileID: 2800000, guid: fa98c104902c6a94d9bcf97cf14c6ec9, type: 3}
+    TextureNormalsGUID: 
+    TextureOcclusion: {fileID: 0}
+    TextureOcclusionGUID: 
+    TextureHeightMap: {fileID: 0}
+    TextureHeightMapGUID: 
+    TileSize: {x: 15, y: 15}
+    offset: {x: 0, y: 0}
+  - Texture: {fileID: 2800000, guid: 12ff3c37d59e28240a8f4643c3ead3d3, type: 3}
+    TextureGUID: 
+    TextureNormals: {fileID: 2800000, guid: e5895469fa6440e4a876bf0672599e59, type: 3}
+    TextureNormalsGUID: 
+    TextureOcclusion: {fileID: 0}
+    TextureOcclusionGUID: 
+    TextureHeightMap: {fileID: 0}
+    TextureHeightMapGUID: 
+    TileSize: {x: 15, y: 15}
+    offset: {x: 0, y: 0}
+  TextureMaskList: []
+  TerrainTextureCount: 8
+  MaxCurveHeight: 301.56262
+  AutomaticMaxCurveHeight: 1
+  TerrainTextureSettingsList:
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.021563342
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureAngleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: -0.89358944
+        outSlope: -0.89358944
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.17520216
+        value: 0.22727275
+        inSlope: -2.1782193
+        outSlope: -2.1782193
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.34231806
+        value: 0
+        inSlope: -0.9919782
+        outSlope: -0.9919782
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureUseNoise: 0
+    TextureNoiseScale: 5
+    TextureWeight: 1
+    TextureLayer: 0
+    Enabled: 1
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.0001
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.7166748
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureAngleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.37859008
+        value: 0.97252744
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.7041626
+        value: 0.025001526
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureUseNoise: 0
+    TextureNoiseScale: 5
+    TextureWeight: 1
+    TextureLayer: 1
+    Enabled: 1
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.989011
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureAngleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.29999924
+        value: 0.07499695
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3994778
+        value: 0.6098901
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureUseNoise: 0
+    TextureNoiseScale: 5
+    TextureWeight: 1
+    TextureLayer: 2
+    Enabled: 1
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6083374
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureAngleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.4666748
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureUseNoise: 0
+    TextureNoiseScale: 5
+    TextureWeight: 1
+    TextureLayer: 3
+    Enabled: 1
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: -1
+        outSlope: -1
+        tangentMode: 34
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: -1
+        outSlope: -1
+        tangentMode: 34
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureAngleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureUseNoise: 0
+    TextureNoiseScale: 5
+    TextureWeight: 1
+    TextureLayer: 4
+    Enabled: 0
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureAngleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureUseNoise: 0
+    TextureNoiseScale: 5
+    TextureWeight: 1
+    TextureLayer: 5
+    Enabled: 0
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureAngleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureUseNoise: 0
+    TextureNoiseScale: 5
+    TextureWeight: 1
+    TextureLayer: 6
+    Enabled: 0
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureAngleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureUseNoise: 0
+    TextureNoiseScale: 5
+    TextureWeight: 1
+    TextureLayer: 7
+    Enabled: 0
+  MaxVegetationItemHeight: 1.8954418
