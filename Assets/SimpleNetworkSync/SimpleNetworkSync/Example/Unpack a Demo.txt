@@ -1,0 +1,7 @@
+Open and import the demo that matches the library you use using:
+
+UNet
+Mirror
+PUN2
+
+A scene file and player object will be extracted. Open the newly created scene.
