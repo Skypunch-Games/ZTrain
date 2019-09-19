@@ -1,0 +1,1522 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5019587143780918745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5019587143780918750}
+  - component: {fileID: 5019587143780918748}
+  - component: {fileID: 5019587143780918751}
+  m_Layer: 8
+  m_Name: PlayerModel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5019587143780918750
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587143780918745}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5019587144892876858}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5019587143780918748
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587143780918745}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &5019587143780918751
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587143780918745}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &5019587143930359420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5019587143930359298}
+  - component: {fileID: 5019587143930359421}
+  - component: {fileID: 5019587143930359297}
+  - component: {fileID: 5019587143930359296}
+  - component: {fileID: 5019587143930359299}
+  - component: {fileID: 6177496977674742146}
+  - component: {fileID: -383845164274308614}
+  - component: {fileID: -5342353078840958617}
+  - component: {fileID: 3797516536754089956}
+  - component: {fileID: -6527719483799707002}
+  - component: {fileID: -8052853916957856631}
+  - component: {fileID: 6351923323709482761}
+  m_Layer: 8
+  m_Name: Player
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5019587143930359298
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587143930359420}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5019587144892876858}
+  - {fileID: 5019587144112896746}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5019587143930359421
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587143930359420}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &5019587143930359297
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587143930359420}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 5
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!114 &5019587143930359296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587143930359420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e019cf0890733043afb764b0590b5ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 5019587144112896744}
+  cameraRotationLimit: 85
+--- !u!114 &5019587143930359299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587143930359420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 321e489a7c212af409682ebc02f30e97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  lookSensitivity: 3
+--- !u!114 &6177496977674742146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587143930359420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serverOnly: 0
+  localPlayerAuthority: 1
+  m_AssetId: 61180e38052d1ee44827d4bf6a791b4f
+  m_SceneId: 0
+--- !u!114 &-383845164274308614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587143930359420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bfa203032a269543b1fd3cee4aa1dd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _applyOrder: 3
+  prefabInstanceId: -2026
+  keyframeRate: 0
+  teleportThreshold: 5
+  interpolation: 1
+  extrapolateRatio: 0.5
+  autoKinematic: 1
+  transformCrusher:
+    defaultTransform: {fileID: 0}
+    posCrusher:
+      isExpanded: 0
+      hideFieldName: 1
+      _trsType: 0
+      defaultTransform: {fileID: 0}
+      uniformAxes: 0
+      _xcrusher:
+        axis: 0
+        showBCL: 0
+        expandBCL: 0
+        showEnableToggle: 1
+        enabled: 1
+        _accurateCenter: 0
+        outOfBoundsHandling: 1
+        encoder: 3276.75
+        decoder: 0.00030518044
+        actualMin: -10
+        actualMax: 10
+        wrappoint: 180
+        range: 20
+        rotationMaxValue: 350
+        maxEncodedVal: 65535
+        centerValue: 0
+        centerEncodedValue: 32767
+        _limitRange: 0
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: -4
+        _bits: 10000000100000001000000010000000
+        _min: -10
+        _max: 10
+        _resolution: 4095
+        _precision: 0.004884005
+        _trsType: 0
+      _ycrusher:
+        axis: 1
+        showBCL: 0
+        expandBCL: 0
+        showEnableToggle: 1
+        enabled: 1
+        _accurateCenter: 0
+        outOfBoundsHandling: 1
+        encoder: 21845
+        decoder: 0.000045777066
+        actualMin: -1
+        actualMax: 2
+        wrappoint: 180.5
+        range: 3
+        rotationMaxValue: 359
+        maxEncodedVal: 65535
+        centerValue: 0.5
+        centerEncodedValue: 32767
+        _limitRange: 0
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: -4
+        _bits: 10000000100000001000000010000000
+        _min: -1
+        _max: 2
+        _resolution: 255
+        _precision: 0.011764706
+        _trsType: 0
+      _zcrusher:
+        axis: 2
+        showBCL: 0
+        expandBCL: 0
+        showEnableToggle: 1
+        enabled: 1
+        _accurateCenter: 0
+        outOfBoundsHandling: 1
+        encoder: 3276.75
+        decoder: 0.00030518044
+        actualMin: -10
+        actualMax: 10
+        wrappoint: 180
+        range: 20
+        rotationMaxValue: 350
+        maxEncodedVal: 65535
+        centerValue: 0
+        centerEncodedValue: 32767
+        _limitRange: 0
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: -4
+        _bits: 10000000100000001000000010000000
+        _min: -10
+        _max: 10
+        _resolution: 4095
+        _precision: 0.004884005
+        _trsType: 0
+      _ucrusher:
+        axis: 4
+        showBCL: 0
+        expandBCL: 0
+        showEnableToggle: 0
+        enabled: 1
+        _accurateCenter: 0
+        outOfBoundsHandling: 1
+        encoder: 12.75
+        decoder: 0.078431375
+        actualMin: -10
+        actualMax: 10
+        wrappoint: 180
+        range: 20
+        rotationMaxValue: 350
+        maxEncodedVal: 255
+        centerValue: 0
+        centerEncodedValue: 127
+        _limitRange: 0
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: -1
+        _bits: 08000000040000000300000000000000
+        _min: -10
+        _max: 10
+        _resolution: 255
+        _precision: 0.078431375
+        _trsType: 4
+      _qcrusher:
+        bits: 0
+        _compressLevel: 64
+        transform: {fileID: 0}
+        local: 0
+        isStandalone: 1
+        showEnableToggle: 0
+        enabled: 1
+      local: 0
+      useWorldBounds: 0
+      boundsGroupId: 0
+      enableTRSTypeSelector: 0
+      enableLocalSelector: 1
+      bounds:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    rotCrusher:
+      isExpanded: 0
+      hideFieldName: 1
+      _trsType: 1
+      defaultTransform: {fileID: 0}
+      uniformAxes: 0
+      _xcrusher:
+        axis: 0
+        showBCL: 0
+        expandBCL: 0
+        showEnableToggle: 1
+        enabled: 1
+        _accurateCenter: 0
+        outOfBoundsHandling: 1
+        encoder: 11.375
+        decoder: 0.08791209
+        actualMin: -180
+        actualMax: 180
+        wrappoint: 180
+        range: 360
+        rotationMaxValue: 180
+        maxEncodedVal: 4095
+        centerValue: 0
+        centerEncodedValue: 2047
+        _limitRange: 0
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: -1
+        _bits: 0c000000080000000600000000000000
+        _min: -180
+        _max: 180
+        _resolution: 4095
+        _precision: 0.004884005
+        _trsType: 1
+      _ycrusher:
+        axis: 1
+        showBCL: 0
+        expandBCL: 0
+        showEnableToggle: 1
+        enabled: 1
+        _accurateCenter: 0
+        outOfBoundsHandling: 1
+        encoder: 11.375
+        decoder: 0.08791209
+        actualMin: -180
+        actualMax: 180
+        wrappoint: 180
+        range: 360
+        rotationMaxValue: 180
+        maxEncodedVal: 4095
+        centerValue: 0
+        centerEncodedValue: 2047
+        _limitRange: 0
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: -1
+        _bits: 0c000000080000000600000000000000
+        _min: -180
+        _max: 180
+        _resolution: 4095
+        _precision: 0.08791209
+        _trsType: 1
+      _zcrusher:
+        axis: 2
+        showBCL: 0
+        expandBCL: 0
+        showEnableToggle: 1
+        enabled: 1
+        _accurateCenter: 0
+        outOfBoundsHandling: 1
+        encoder: 11.375
+        decoder: 0.08791209
+        actualMin: -180
+        actualMax: 180
+        wrappoint: 180
+        range: 360
+        rotationMaxValue: 180
+        maxEncodedVal: 4095
+        centerValue: 0
+        centerEncodedValue: 2047
+        _limitRange: 0
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: -1
+        _bits: 0c000000080000000600000000000000
+        _min: -180
+        _max: 180
+        _resolution: 4095
+        _precision: 0.08791209
+        _trsType: 1
+      _ucrusher:
+        axis: 4
+        showBCL: 0
+        expandBCL: 0
+        showEnableToggle: 0
+        enabled: 1
+        _accurateCenter: 0
+        outOfBoundsHandling: 1
+        encoder: 12.75
+        decoder: 0.078431375
+        actualMin: -10
+        actualMax: 10
+        wrappoint: 180
+        range: 20
+        rotationMaxValue: 350
+        maxEncodedVal: 255
+        centerValue: 0
+        centerEncodedValue: 127
+        _limitRange: 0
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: -1
+        _bits: 08000000040000000300000000000000
+        _min: -10
+        _max: 10
+        _resolution: 255
+        _precision: 0.078431375
+        _trsType: 4
+      _qcrusher:
+        bits: 44
+        _compressLevel: -1
+        transform: {fileID: 0}
+        local: 0
+        isStandalone: 1
+        showEnableToggle: 1
+        enabled: 1
+      local: 0
+      useWorldBounds: 0
+      boundsGroupId: 0
+      enableTRSTypeSelector: 0
+      enableLocalSelector: 1
+      bounds:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    sclCrusher:
+      isExpanded: 0
+      hideFieldName: 1
+      _trsType: 3
+      defaultTransform: {fileID: 0}
+      uniformAxes: 0
+      _xcrusher:
+        axis: 0
+        showBCL: 0
+        expandBCL: 0
+        showEnableToggle: 1
+        enabled: 1
+        _accurateCenter: 1
+        outOfBoundsHandling: 1
+        encoder: 32767
+        decoder: 0.00003051851
+        actualMin: -1
+        actualMax: 1
+        wrappoint: 180
+        range: 2
+        rotationMaxValue: 359
+        maxEncodedVal: 65534
+        centerValue: 0
+        centerEncodedValue: 32767
+        _limitRange: 1
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: -4
+        _bits: 10000000100000001000000010000000
+        _min: -1
+        _max: 1
+        _resolution: 510
+        _precision: 0.003921569
+        _trsType: 3
+      _ycrusher:
+        axis: 1
+        showBCL: 0
+        expandBCL: 0
+        showEnableToggle: 1
+        enabled: 1
+        _accurateCenter: 1
+        outOfBoundsHandling: 1
+        encoder: 32767
+        decoder: 0.00003051851
+        actualMin: -1
+        actualMax: 1
+        wrappoint: 180
+        range: 2
+        rotationMaxValue: 359
+        maxEncodedVal: 65534
+        centerValue: 0
+        centerEncodedValue: 32767
+        _limitRange: 1
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: -4
+        _bits: 10000000100000001000000010000000
+        _min: -1
+        _max: 1
+        _resolution: 255
+        _precision: 0.007843138
+        _trsType: 3
+      _zcrusher:
+        axis: 2
+        showBCL: 0
+        expandBCL: 0
+        showEnableToggle: 1
+        enabled: 1
+        _accurateCenter: 1
+        outOfBoundsHandling: 1
+        encoder: 32767
+        decoder: 0.00003051851
+        actualMin: -1
+        actualMax: 1
+        wrappoint: 180
+        range: 2
+        rotationMaxValue: 359
+        maxEncodedVal: 65534
+        centerValue: 0
+        centerEncodedValue: 32767
+        _limitRange: 1
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: -4
+        _bits: 10000000100000001000000010000000
+        _min: -1
+        _max: 1
+        _resolution: 255
+        _precision: 0.007843138
+        _trsType: 3
+      _ucrusher:
+        axis: 3
+        showBCL: 0
+        expandBCL: 0
+        showEnableToggle: 1
+        enabled: 1
+        _accurateCenter: 0
+        outOfBoundsHandling: 1
+        encoder: 511.5
+        decoder: 0.0019550342
+        actualMin: 0
+        actualMax: 2
+        wrappoint: 181
+        range: 2
+        rotationMaxValue: 360
+        maxEncodedVal: 1023
+        centerValue: 1
+        centerEncodedValue: 511
+        _limitRange: 1
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: -1
+        _bits: 0a000000060000000500000000000000
+        _min: 0
+        _max: 2
+        _resolution: 1023
+        _precision: 0.0019550342
+        _trsType: 3
+      _qcrusher:
+        bits: 0
+        _compressLevel: 64
+        transform: {fileID: 0}
+        local: 0
+        isStandalone: 1
+        showEnableToggle: 0
+        enabled: 1
+      local: 1
+      useWorldBounds: 0
+      boundsGroupId: 0
+      enableTRSTypeSelector: 0
+      enableLocalSelector: 1
+      bounds:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    isExpanded: 1
+--- !u!114 &-5342353078840958617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587143930359420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f08b0218b7c3a4b81aa2452bee55ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+--- !u!114 &3797516536754089956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587143930359420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e28cba854079b4ba6a6d08014af4ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-6527719483799707002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587143930359420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17effa21491a74c458187c2d600b1e87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  componentsToDisable:
+  - {fileID: 5019587143930359296}
+  - {fileID: 5019587143930359299}
+  - {fileID: 5019587144112896744}
+  - {fileID: 5019587144112896747}
+  - {fileID: -8052853916957856631}
+  remoteLayerName: RemotePlayer
+--- !u!114 &-8052853916957856631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587143930359420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c50ff9d6cfb57d4f95d040889f666a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  weapon:
+    name: Glock
+    damage: 10
+    range: 100
+  cam: {fileID: 5019587144112896744}
+  mask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &6351923323709482761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587143930359420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2db52bd8464b0bb4aa787f051254d683, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &5019587143961898276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5019587143961898277}
+  - component: {fileID: 5019587143961898280}
+  - component: {fileID: 5019587143961898283}
+  - component: {fileID: 5019587143961898282}
+  m_Layer: 8
+  m_Name: Cube (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5019587143961898277
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587143961898276}
+  m_LocalRotation: {x: 0.18344535, y: -0, z: -0, w: 0.9830299}
+  m_LocalPosition: {x: 0, y: -0.116, z: 0.152}
+  m_LocalScale: {x: 0.14999999, y: 0.14999999, z: 0.09}
+  m_Children: []
+  m_Father: {fileID: 5019587144886277795}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 21.141, y: 0, z: 0}
+--- !u!33 &5019587143961898280
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587143961898276}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &5019587143961898283
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587143961898276}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 92f05a8bd03fa944186ef29dd53529c0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &5019587143961898282
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587143961898276}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &5019587144112896741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5019587144112896746}
+  - component: {fileID: 5019587144112896744}
+  - component: {fileID: 5019587144112896747}
+  - component: {fileID: 281084838812420037}
+  m_Layer: 8
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5019587144112896746
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587144112896741}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5019587144886277795}
+  m_Father: {fileID: 5019587143930359298}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &5019587144112896744
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587144112896741}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!81 &5019587144112896747
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587144112896741}
+  m_Enabled: 1
+--- !u!114 &281084838812420037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587144112896741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bfa203032a269543b1fd3cee4aa1dd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _applyOrder: 3
+  prefabInstanceId: -9100
+  keyframeRate: 0
+  teleportThreshold: 5
+  interpolation: 1
+  extrapolateRatio: 0
+  autoKinematic: 1
+  transformCrusher:
+    defaultTransform: {fileID: 0}
+    posCrusher:
+      isExpanded: 0
+      hideFieldName: 1
+      _trsType: 0
+      defaultTransform: {fileID: 0}
+      uniformAxes: 0
+      _xcrusher:
+        axis: 0
+        showBCL: 0
+        expandBCL: 0
+        showEnableToggle: 1
+        enabled: 0
+        _accurateCenter: 0
+        outOfBoundsHandling: 1
+        encoder: 102.375
+        decoder: 0.00976801
+        actualMin: -20
+        actualMax: 20
+        wrappoint: 180
+        range: 40
+        rotationMaxValue: 340
+        maxEncodedVal: 4095
+        centerValue: 0
+        centerEncodedValue: 2047
+        _limitRange: 1
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: -1
+        _bits: 0c000000080000000600000000000000
+        _min: -20
+        _max: 20
+        _resolution: 4095
+        _precision: 0.00976801
+        _trsType: 0
+      _ycrusher:
+        axis: 1
+        showBCL: 0
+        expandBCL: 0
+        showEnableToggle: 1
+        enabled: 0
+        _accurateCenter: 0
+        outOfBoundsHandling: 1
+        encoder: 102.3
+        decoder: 0.009775171
+        actualMin: -5
+        actualMax: 5
+        wrappoint: 180
+        range: 10
+        rotationMaxValue: 355
+        maxEncodedVal: 1023
+        centerValue: 0
+        centerEncodedValue: 511
+        _limitRange: 1
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: -1
+        _bits: 0a000000060000000500000000000000
+        _min: -5
+        _max: 5
+        _resolution: 1023
+        _precision: 0.009775171
+        _trsType: 0
+      _zcrusher:
+        axis: 2
+        showBCL: 0
+        expandBCL: 0
+        showEnableToggle: 1
+        enabled: 0
+        _accurateCenter: 0
+        outOfBoundsHandling: 1
+        encoder: 102.3
+        decoder: 0.009775171
+        actualMin: -5
+        actualMax: 5
+        wrappoint: 180
+        range: 10
+        rotationMaxValue: 355
+        maxEncodedVal: 1023
+        centerValue: 0
+        centerEncodedValue: 511
+        _limitRange: 1
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: -1
+        _bits: 0a000000060000000500000000000000
+        _min: -5
+        _max: 5
+        _resolution: 1023
+        _precision: 0.009775171
+        _trsType: 0
+      _ucrusher:
+        axis: 4
+        showBCL: 0
+        expandBCL: 0
+        showEnableToggle: 0
+        enabled: 1
+        _accurateCenter: 0
+        outOfBoundsHandling: 1
+        encoder: 12.75
+        decoder: 0.078431375
+        actualMin: -10
+        actualMax: 10
+        wrappoint: 180
+        range: 20
+        rotationMaxValue: 350
+        maxEncodedVal: 255
+        centerValue: 0
+        centerEncodedValue: 127
+        _limitRange: 0
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: -1
+        _bits: 08000000040000000300000000000000
+        _min: -10
+        _max: 10
+        _resolution: 255
+        _precision: 0.078431375
+        _trsType: 4
+      _qcrusher:
+        bits: 0
+        _compressLevel: 64
+        transform: {fileID: 0}
+        local: 0
+        isStandalone: 1
+        showEnableToggle: 0
+        enabled: 1
+      local: 1
+      useWorldBounds: 0
+      boundsGroupId: 0
+      enableTRSTypeSelector: 0
+      enableLocalSelector: 1
+      bounds:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    rotCrusher:
+      isExpanded: 0
+      hideFieldName: 1
+      _trsType: 1
+      defaultTransform: {fileID: 0}
+      uniformAxes: 0
+      _xcrusher:
+        axis: 0
+        showBCL: 0
+        expandBCL: 0
+        showEnableToggle: 1
+        enabled: 1
+        _accurateCenter: 0
+        outOfBoundsHandling: 1
+        encoder: 11.375
+        decoder: 0.08791209
+        actualMin: -180
+        actualMax: 180
+        wrappoint: 180
+        range: 360
+        rotationMaxValue: 180
+        maxEncodedVal: 4095
+        centerValue: 0
+        centerEncodedValue: 2047
+        _limitRange: 0
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: -1
+        _bits: 0c000000080000000600000000000000
+        _min: -180
+        _max: 180
+        _resolution: 4095
+        _precision: 0.004884005
+        _trsType: 1
+      _ycrusher:
+        axis: 1
+        showBCL: 0
+        expandBCL: 0
+        showEnableToggle: 1
+        enabled: 0
+        _accurateCenter: 0
+        outOfBoundsHandling: 1
+        encoder: 11.375
+        decoder: 0.08791209
+        actualMin: -180
+        actualMax: 180
+        wrappoint: 180
+        range: 360
+        rotationMaxValue: 180
+        maxEncodedVal: 4095
+        centerValue: 0
+        centerEncodedValue: 2047
+        _limitRange: 0
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: -1
+        _bits: 0c000000080000000600000000000000
+        _min: -180
+        _max: 180
+        _resolution: 4095
+        _precision: 0.08791209
+        _trsType: 1
+      _zcrusher:
+        axis: 2
+        showBCL: 0
+        expandBCL: 0
+        showEnableToggle: 1
+        enabled: 0
+        _accurateCenter: 0
+        outOfBoundsHandling: 1
+        encoder: 11.375
+        decoder: 0.08791209
+        actualMin: -180
+        actualMax: 180
+        wrappoint: 180
+        range: 360
+        rotationMaxValue: 180
+        maxEncodedVal: 4095
+        centerValue: 0
+        centerEncodedValue: 2047
+        _limitRange: 0
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: -1
+        _bits: 0c000000080000000600000000000000
+        _min: -180
+        _max: 180
+        _resolution: 4095
+        _precision: 0.08791209
+        _trsType: 1
+      _ucrusher:
+        axis: 4
+        showBCL: 0
+        expandBCL: 0
+        showEnableToggle: 0
+        enabled: 1
+        _accurateCenter: 0
+        outOfBoundsHandling: 1
+        encoder: 12.75
+        decoder: 0.078431375
+        actualMin: -10
+        actualMax: 10
+        wrappoint: 180
+        range: 20
+        rotationMaxValue: 350
+        maxEncodedVal: 255
+        centerValue: 0
+        centerEncodedValue: 127
+        _limitRange: 0
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: -1
+        _bits: 08000000040000000300000000000000
+        _min: -10
+        _max: 10
+        _resolution: 255
+        _precision: 0.078431375
+        _trsType: 4
+      _qcrusher:
+        bits: 44
+        _compressLevel: -1
+        transform: {fileID: 0}
+        local: 0
+        isStandalone: 1
+        showEnableToggle: 1
+        enabled: 1
+      local: 1
+      useWorldBounds: 0
+      boundsGroupId: 0
+      enableTRSTypeSelector: 0
+      enableLocalSelector: 1
+      bounds:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    sclCrusher:
+      isExpanded: 0
+      hideFieldName: 1
+      _trsType: 3
+      defaultTransform: {fileID: 0}
+      uniformAxes: 0
+      _xcrusher:
+        axis: 0
+        showBCL: 0
+        expandBCL: 0
+        showEnableToggle: 1
+        enabled: 0
+        _accurateCenter: 1
+        outOfBoundsHandling: 1
+        encoder: 32767
+        decoder: 0.00003051851
+        actualMin: -1
+        actualMax: 1
+        wrappoint: 180
+        range: 2
+        rotationMaxValue: 359
+        maxEncodedVal: 65534
+        centerValue: 0
+        centerEncodedValue: 32767
+        _limitRange: 1
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: -4
+        _bits: 10000000100000001000000010000000
+        _min: -1
+        _max: 1
+        _resolution: 255
+        _precision: 0.007843138
+        _trsType: 3
+      _ycrusher:
+        axis: 1
+        showBCL: 0
+        expandBCL: 0
+        showEnableToggle: 1
+        enabled: 0
+        _accurateCenter: 1
+        outOfBoundsHandling: 1
+        encoder: 32767
+        decoder: 0.00003051851
+        actualMin: -1
+        actualMax: 1
+        wrappoint: 180
+        range: 2
+        rotationMaxValue: 359
+        maxEncodedVal: 65534
+        centerValue: 0
+        centerEncodedValue: 32767
+        _limitRange: 1
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: -4
+        _bits: 10000000100000001000000010000000
+        _min: -1
+        _max: 1
+        _resolution: 255
+        _precision: 0.007843138
+        _trsType: 3
+      _zcrusher:
+        axis: 2
+        showBCL: 0
+        expandBCL: 0
+        showEnableToggle: 1
+        enabled: 0
+        _accurateCenter: 1
+        outOfBoundsHandling: 1
+        encoder: 32767
+        decoder: 0.00003051851
+        actualMin: -1
+        actualMax: 1
+        wrappoint: 180
+        range: 2
+        rotationMaxValue: 359
+        maxEncodedVal: 65534
+        centerValue: 0
+        centerEncodedValue: 32767
+        _limitRange: 1
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: -4
+        _bits: 10000000100000001000000010000000
+        _min: -1
+        _max: 1
+        _resolution: 255
+        _precision: 0.007843138
+        _trsType: 3
+      _ucrusher:
+        axis: 3
+        showBCL: 0
+        expandBCL: 0
+        showEnableToggle: 1
+        enabled: 1
+        _accurateCenter: 0
+        outOfBoundsHandling: 1
+        encoder: 511.5
+        decoder: 0.0019550342
+        actualMin: 0
+        actualMax: 2
+        wrappoint: 181
+        range: 2
+        rotationMaxValue: 360
+        maxEncodedVal: 1023
+        centerValue: 1
+        centerEncodedValue: 511
+        _limitRange: 1
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: -1
+        _bits: 0a000000060000000500000000000000
+        _min: 0
+        _max: 2
+        _resolution: 1023
+        _precision: 0.0019550342
+        _trsType: 3
+      _qcrusher:
+        bits: 0
+        _compressLevel: 64
+        transform: {fileID: 0}
+        local: 0
+        isStandalone: 1
+        showEnableToggle: 0
+        enabled: 1
+      local: 1
+      useWorldBounds: 0
+      boundsGroupId: 0
+      enableTRSTypeSelector: 0
+      enableLocalSelector: 1
+      bounds:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    isExpanded: 1
+--- !u!1 &5019587144886277794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5019587144886277795}
+  m_Layer: 8
+  m_Name: Gun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5019587144886277795
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587144886277794}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.389, y: -0.115, z: 0.628}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_Children:
+  - {fileID: 5019587145575504168}
+  - {fileID: 5019587143961898277}
+  - {fileID: 5019587145186888910}
+  m_Father: {fileID: 5019587144112896746}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5019587144892876853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5019587144892876858}
+  m_Layer: 8
+  m_Name: Graphics
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5019587144892876858
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587144892876853}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5019587143780918750}
+  m_Father: {fileID: 5019587143930359298}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5019587145186888905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5019587145186888910}
+  - component: {fileID: 5019587145186888909}
+  - component: {fileID: 5019587145186888908}
+  - component: {fileID: 5019587145186888911}
+  m_Layer: 8
+  m_Name: Cube (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5019587145186888910
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587145186888905}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.13499999, z: -0.158}
+  m_LocalScale: {x: 0.09997049, y: 0.21789, z: 0.089999996}
+  m_Children: []
+  m_Father: {fileID: 5019587144886277795}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5019587145186888909
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587145186888905}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &5019587145186888908
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587145186888905}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 92f05a8bd03fa944186ef29dd53529c0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &5019587145186888911
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587145186888905}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &5019587145575504171
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5019587145575504168}
+  - component: {fileID: 5019587145575504175}
+  - component: {fileID: 5019587145575504174}
+  - component: {fileID: 5019587145575504169}
+  m_Layer: 8
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5019587145575504168
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587145575504171}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 0.5}
+  m_Children: []
+  m_Father: {fileID: 5019587144886277795}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5019587145575504175
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587145575504171}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &5019587145575504174
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587145575504171}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 92f05a8bd03fa944186ef29dd53529c0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &5019587145575504169
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019587145575504171}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
