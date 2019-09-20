@@ -1,3 +1,0 @@
-Actor Controller
-Version 1.101
-Mar 23, 2019
