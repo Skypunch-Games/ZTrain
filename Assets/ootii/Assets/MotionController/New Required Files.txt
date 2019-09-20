@@ -1,0 +1,11 @@
+ootii/Assets/Framework_v1/Code/Helpers/AssemblyHelper.cs
+ootii/Assets/Framework_v1/Code/Helpers/AssetHelper.cs
+ootii/Assets/Framework_v1/Code/Graphics/UI/HUD/BasicCombatantHUD.cs
+ootii/Assets/Framework_v1/Code/Actors/Inventory/BasicInventory/BasicInventoryExtensions.ca
+ootii/Assets/Framework_v1/Code/Game/Reactors/Actions/AgentSetUseTransform.cs
+ootii/Assets/Framework_v1/Code/Game/Reactors/Actions/BasicHandPoseReactor.cs
+
+
+ootii/Editor/Framework_v1/Base/BaseAssetInspector.cs
+ootii/Editor/Framework_v1/Base/BaseInspector.cs
+ootii/Editor/Framework_v1/Graphics/UI/HUD/BasicCombatantHUDEditor.cs

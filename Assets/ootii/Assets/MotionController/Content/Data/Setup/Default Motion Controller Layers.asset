@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d116387e9bed84847aae3394d2606bd7, type: 3}
+  m_Name: Default Motion Controller Layers
+  m_EditorClassIdentifier: 
+  _Description: The layers used in the Motion Controller demo scenes.
+  _LayerDefinitions:
+  - _Index: 8
+    _Name: PostProcessing
+  - _Index: 9
+    _Name: Climb
+  - _Index: 10
+    _Name: Ladder
+  - _Index: 11
+    _Name: Scalable Wall
+  - _Index: 12
+    _Name: Scalable Ledge
+  - _Index: 13
+    _Name: Balance Walk
+  - _Index: 14
+    _Name: Interaction
+  - _Index: 16
+    _Name: Physics Objects
+  _OverwriteExistingLayers: 1

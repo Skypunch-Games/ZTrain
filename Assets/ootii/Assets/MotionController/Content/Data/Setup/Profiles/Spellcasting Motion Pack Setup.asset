@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8f587f606b0d7b40bc08806394aa982, type: 3}
+  m_Name: Spellcasting Motion Pack Setup
+  m_EditorClassIdentifier: 
+  _ModuleDefinitions:
+  - '{__Type : "com.ootii.Setup.SpellCastingPackSetupModule, ootii.Editor, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null", _RequiresStance : True, _DefaultSpellPath
+    : "", _DefineSpellLoadout : False, _AnimatorLayer : 0, _CreateInputAliases : True,
+    _MovementStyle : 0, _Priority : 0, _Category : 0, _GUID : "", _Name : "Spellcasting
+    Motion Pack"}'
+  EditorModuleIndex: 0
+  _Renamed: 1
+  Image: {fileID: 2800000, guid: 0e40729900d8eaa4d8dcf2d78fe0bff6, type: 3}
+  ReadOnly: 1
+  Priority: 1
+  DisplayText: Set Up Spellcaster
+  Description: Sets up the Basic series of motions using the default animations, the
+    common Jump and Cllimb motions, as well as the Spellcasting Motion Pack.
+  UseTransformPosition: 1
+  AddNavMeshAgent: 1
+  NavMeshAngularSpeed: 240
+  UseCombatantHUD: 1
+  CombatantHealthBarPrefab: {fileID: 114004648025672786, guid: 36dd03bd62d734843bbdf7935e5a179f,
+    type: 3}
+  WorldSpaceHUDPosition: 2.2
+  NPCLayer: 0
+  AnimatorController: {fileID: 0}
+  CreateNewAnimator: 1
+  AlwaysCreateNewAnimator: 0
+  ConfigureAnimator: 1
+  AnimatorUsesProfileName: 0
+  AnimatorUsesCharacterName: 1
+  AnimatorName: BasicHumanoid
+  AnimatorPath: 
+  UseCameraPrefab: 0
+  CameraPrefab: {fileID: 114387366236996822, guid: 729a63929f5cbf845920f62291258ed7,
+    type: 3}
+  UseCameraAnchor: 0
+  AnchorTargetOffset: {x: 0, y: 0, z: 0}
+  AnchorRotatesWithTarget: 1
+  AnchorMovementLerp: 1
+  UpdateInput: 1
+  ViewActivator: 0
+  AddGameCore: 1
+  UseReticle: 1
+  ReticlePrefab: {fileID: 114133714738468480, guid: 3a22835891ac76b47b9dfc37accf7d2a,
+    type: 3}
+  ReticleStartVisible: 0
+  UsePlayerHUD: 1
+  PlayerHealthBarPrefab: {fileID: 114681830245975468, guid: 5019ee1908a0db04fb1c2090e74fa02b,
+    type: 3}
+  PlayerHealthBarHideWhenFull: 0
+  PlayerLayer: 0
+  AddBasicAttributes: 1
+  HealthValue: 100
+  AddBasicInventory: 1
+  CreateDefaultSlots: 1
+  AddRigidbody: 1
+  RigidbodyMass: 50
+  AddCombatant: 1
+  MaxTargetLockDistance: 10
+  MovementStyle: 0
+  AddBasicMotions: 1
+  AddFullBodyReactions: 1
+  AddUtilityMotions: 1
+  AddInteraction: 1
+  InteractionLayers:
+    serializedVersion: 2
+    m_Bits: 16384
+  AddJumpMotions: 1
+  AddClimbMotions: 1
+  ClimbLayers:
+    serializedVersion: 2
+    m_Bits: 512
+  ClimbLadderLayers:
+    serializedVersion: 2
+    m_Bits: 1024
+  VaultLayers:
+    serializedVersion: 2
+    m_Bits: 512
+  _RequiredMotionPacks:
+  - Spell Casting
