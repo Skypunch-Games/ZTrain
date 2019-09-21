@@ -2,3 +2,7 @@
 Library/
 
 Temp/
+
+.vs/ZTrain/v15/
+
+obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache
