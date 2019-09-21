@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AA2C5E81-380C-46BA-B1E4-CB528458917B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Devdog.Rucksack.Collections</RootNamespace>
+    <AssemblyName>Devdog.Rucksack.Collections</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <LangVersion>7</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\_BUILD_Debug</OutputPath>
+    <IntermediateOutputPath>..\..\obj\</IntermediateOutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\_BUILD_Release</OutputPath>
+    <IntermediateOutputPath>..\..\obj\</IntermediateOutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Builder\CollectionBuilder.cs" />
+    <Compile Include="Builder\LayoutCollectionBuilder.cs" />
+    <Compile Include="Collection.cs" />
+    <Compile Include="CollectionBase.cs" />
+    <Compile Include="CollectionContext.cs" />
+    <Compile Include="CollectionGroup.cs" />
+    <Compile Include="CollectionGroupSimulation.cs" />
+    <Compile Include="CollectionSimulation.cs" />
+    <Compile Include="CollectionPriority.cs" />
+    <Compile Include="ExtensionMethods\CollectionExtensionMethods.cs" />
+    <Compile Include="ICollection.cs" />
+    <Compile Include="ICollectionEntry.cs" />
+    <Compile Include="ICollectionPriority.cs" />
+    <Compile Include="ICollectionSlotEntry.cs" />
+    <Compile Include="IReadOnlyCollection.cs" />
+    <Compile Include="ISimulatable.cs" />
+    <Compile Include="LayoutCollection.cs" />
+    <Compile Include="Registry\CollectionRegistry.cs" />
+    <Compile Include="Registry\CollectionRegistryFinder.cs" />
+    <Compile Include="Restrictions\ICollectionRestriction.cs" />
+    <Compile Include="Restrictions\CollectionRestrictionFactory.cs" />
+    <Compile Include="Results\CollectionAddResult.cs" />
+    <Compile Include="Results\CollectionGroupAddResult.cs" />
+    <Compile Include="Results\CollectionGroupIndexOfResult.cs" />
+    <Compile Include="Results\CollectionGroupRemoveResult.cs" />
+    <Compile Include="Results\CollectionRemoveResult.cs" />
+    <Compile Include="Results\CollectionSizeChangedResult.cs" />
+    <Compile Include="Results\CollectionSlotsChangedResult.cs" />
+    <Compile Include="Results\CollectionSwapOrMergeAction.cs" />
+    <Compile Include="Results\SlotAmount.cs" />
+    <Compile Include="Slots\CollectionSlot.cs" />
+    <Compile Include="Slots\LayoutCollectionSlot.cs" />
+    <Compile Include="Slots\NullableCollectionSlot.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\General\General.csproj">
+      <Project>{0db44684-bebf-4a6a-9edc-9b6c7ff59887}</Project>
+      <Name>General</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

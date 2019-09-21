@@ -211,17 +211,17 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>E:/Repositories/ZTrain/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/Repositories/ZTrain/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>E:/Repositories/ZTrain/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>E:/Repositories/ZTrain/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>E:/Repositories/ZTrain/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>E:/Repositories/ZTrain/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>E:/Repositories/ZTrain/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -483,6 +483,9 @@
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>E:/Repositories/ZTrain/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="OdinSerializer">
+      <HintPath>E:/Repositories/ZTrain/Assets/Rucksack/General2/Runtime/Serialization/Plugins/OdinSerializer.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -881,6 +884,26 @@
     <ProjectReference Include="BitpackersASMDEF.csproj">
       <Project>{6B8C3F07-6B3B-ECBD-1D9C-5CA2EE60F7E8}</Project>
       <Name>BitpackersASMDEF</Name>
+    </ProjectReference>
+    <ProjectReference Include="Devdog.Rucksack.csproj">
+      <Project>{07266A02-164E-62B5-BDFB-F3BD1AFEEFEA}</Project>
+      <Name>Devdog.Rucksack</Name>
+    </ProjectReference>
+    <ProjectReference Include="Devdog.General2.Editors.csproj">
+      <Project>{B56852A1-BA6F-5194-9266-CB4599A490AF}</Project>
+      <Name>Devdog.General2.Editors</Name>
+    </ProjectReference>
+    <ProjectReference Include="Devdog.Rucksack.UnityBridge.Editors.csproj">
+      <Project>{A1D6DA71-890E-D16A-9566-7612B8655943}</Project>
+      <Name>Devdog.Rucksack.UnityBridge.Editors</Name>
+    </ProjectReference>
+    <ProjectReference Include="Devdog.Rucksack.UnityBridge.csproj">
+      <Project>{73DCA1FD-14E3-36EC-60AB-79EA598D6664}</Project>
+      <Name>Devdog.Rucksack.UnityBridge</Name>
+    </ProjectReference>
+    <ProjectReference Include="Devdog.General2.csproj">
+      <Project>{39DDB644-DB69-B76D-E10D-8A5842CD2D29}</Project>
+      <Name>Devdog.General2</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

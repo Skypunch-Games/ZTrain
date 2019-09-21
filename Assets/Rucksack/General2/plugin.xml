@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<plugin>
+	<name>Devdog.General</name>
+	<description>General library for Devdog assets</description>
+	<version>2.0.0</version>
+	<separateBuild>false</separateBuild>
+	<dependencies>
+		
+	</dependencies>
+</plugin>

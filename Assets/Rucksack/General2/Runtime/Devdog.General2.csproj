@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{91F0CE59-82A5-4980-9FBC-EAF9FFDB4960}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Devdog.General2</RootNamespace>
+    <AssemblyName>Devdog.General2</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>Serialization\Plugins\OdinSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticlesLegacyModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.ParticlesLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WebModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.WebModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="General\Helpers\AnimatorHelper.cs" />
+    <Compile Include="General\Integrations\Rewired\RewiredHelper.cs" />
+    <Compile Include="General\Integrations\Rewired\TriggerRewiredInputHandler.cs" />
+    <Compile Include="General\Integrations\Rewired\UIWindowRewiredInputHandler.cs" />
+    <Compile Include="General\Integrations\Rewired\UI\RewiredTriggerUI.cs" />
+    <Compile Include="General\Misc\Attributes\AllowSceneObjectsAttribute.cs" />
+    <Compile Include="General\Misc\Attributes\ArrayControlOptionsAttribute.cs" />
+    <Compile Include="General\Misc\Attributes\CategoryAttribute.cs" />
+    <Compile Include="General\Misc\Attributes\CustomSerializationAttribute.cs" />
+    <Compile Include="General\Misc\Attributes\ForceCustomObjectPickerAttribute.cs" />
+    <Compile Include="General\Misc\Attributes\ForceStandardObjectPickerAttribute.cs" />
+    <Compile Include="General\Misc\Attributes\HideGroupAttribute.cs" />
+    <Compile Include="General\Misc\Attributes\HideInCreationWindowAttribute.cs" />
+    <Compile Include="General\Misc\Attributes\HideInPropertiesAttribute.cs" />
+    <Compile Include="General\Misc\Attributes\HideTypePicker.cs" />
+    <Compile Include="General\Misc\Attributes\IgnoreCustomSerializationAttribute.cs" />
+    <Compile Include="General\Misc\Attributes\InspectorReadOnlyAttribute.cs" />
+    <Compile Include="General\Misc\Attributes\OnlyDerivedTypesAttribute.cs" />
+    <Compile Include="General\Misc\Attributes\ReplacedByAttribute.cs" />
+    <Compile Include="General\Misc\Attributes\RequiredAttribute.cs" />
+    <Compile Include="General\Misc\Attributes\SummaryAttribute.cs" />
+    <Compile Include="General\Misc\AudioClipInfo.cs" />
+    <Compile Include="General\Misc\CursorIcon.cs" />
+    <Compile Include="General\Misc\DestroyAfterSeconds.cs" />
+    <Compile Include="General\Misc\DevdogLogger.cs" />
+    <Compile Include="General\Misc\DisableParticleSystemAfterSeconds.cs" />
+    <Compile Include="General\Misc\DontDestroyOnLoad.cs" />
+    <Compile Include="General\Misc\ExtensionMethods\AnimatorExtensionMethods.cs" />
+    <Compile Include="General\Misc\ExtensionMethods\AudioSourceExtensionMethods.cs" />
+    <Compile Include="General\Misc\ExtensionMethods\ComponentExtensionMethod.cs" />
+    <Compile Include="General\Misc\ExtensionMethods\GameObjectExtensionMethods.cs" />
+    <Compile Include="General\Misc\ExtensionMethods\TransformExtensionMethods.cs" />
+    <Compile Include="General\Misc\FMinMaxRange.cs" />
+    <Compile Include="General\Misc\Interfaces\ILocalIdentifier.cs" />
+    <Compile Include="General\Misc\LocalIdentifier.cs" />
+    <Compile Include="General\Misc\Managers\AudioManager.cs" />
+    <Compile Include="General\Misc\Managers\GeneralSettingsManager.cs" />
+    <Compile Include="General\Misc\Managers\InputManager.cs" />
+    <Compile Include="General\Misc\Managers\ManagerBase.cs" />
+    <Compile Include="General\Misc\Managers\ScriptableObjects\GeneralSettings.cs" />
+    <Compile Include="General\Misc\MinMaxRange.cs" />
+    <Compile Include="General\Misc\MinMaxVector3.cs" />
+    <Compile Include="General\Misc\MotionInfo.cs" />
+    <Compile Include="General\Misc\Pool\ComponentPool.cs" />
+    <Compile Include="General\Misc\Pool\GameObjectPool.cs" />
+    <Compile Include="General\Misc\Pool\Interfaces\IPoolable.cs" />
+    <Compile Include="General\Misc\Pool\PoolBase.cs" />
+    <Compile Include="General\Misc\SinWave.cs" />
+    <Compile Include="General\Misc\Timer\FakeTimerHelper.cs" />
+    <Compile Include="General\Misc\Timer\Interfaces\ITimerHelper.cs" />
+    <Compile Include="General\Misc\Timer\TimerHelper.cs" />
+    <Compile Include="General\Misc\Timer\TimerUtility.cs" />
+    <Compile Include="General\Misc\UNet\UNetDestroyComponents.cs" />
+    <Compile Include="General\Utilities\CoroutineUtility.cs" />
+    <Compile Include="General\Utilities\ReflectionUtility.cs" />
+    <Compile Include="General\Utilities\SceneUtility.cs" />
+    <Compile Include="General\Utilities\UIUtility.cs" />
+    <Compile Include="General\Utilities\UIWindowUtility.cs" />
+    <Compile Include="General\Windows\DraggableWindow.cs" />
+    <Compile Include="General\Windows\Interfaces\IUIWindowInputHandler.cs" />
+    <Compile Include="General\Windows\Interfaces\IUIWindowVisuals.cs" />
+    <Compile Include="General\Windows\UIWindow.cs" />
+    <Compile Include="General\Windows\UIWindowField.cs" />
+    <Compile Include="General\Windows\UIWindowInputHandler.cs" />
+    <Compile Include="General\Windows\UIWindowSync.cs" />
+    <Compile Include="General\Windows\UIWindowVisuals.cs" />
+    <Compile Include="Interaction\Characters\Character.cs" />
+    <Compile Include="Interaction\Characters\Interfaces\IPlayerInputCallbacks.cs" />
+    <Compile Include="Interaction\Characters\Managers\PlayerManager.cs" />
+    <Compile Include="Interaction\Characters\Player.cs" />
+    <Compile Include="Interaction\Characters\Player2D.cs" />
+    <Compile Include="Interaction\Characters\UNet\Messages\RequestUseTriggerMessage.cs" />
+    <Compile Include="Interaction\Characters\UNet\UNetGeneralActionsBridge.cs" />
+    <Compile Include="Interaction\Characters\UNet\UNetPlayerInitializer.cs" />
+    <Compile Include="Interaction\Relevancy\Interfaces\IObjectRelevancy.cs" />
+    <Compile Include="Interaction\Relevancy\ObjectDistanceRelevancy.cs" />
+    <Compile Include="Interaction\Relevancy\ObjectNullRelevancy.cs" />
+    <Compile Include="Interaction\Triggers\IgnoreRangeTriggerRangeHandler.cs" />
+    <Compile Include="Interaction\Triggers\Interfaces\ITriggerCallbacks.cs" />
+    <Compile Include="Interaction\Triggers\Interfaces\ITriggerColliderUse.cs" />
+    <Compile Include="Interaction\Triggers\Interfaces\ITriggerInputHandler.cs" />
+    <Compile Include="Interaction\Triggers\Interfaces\ITriggerRangeHandler.cs" />
+    <Compile Include="Interaction\Triggers\ITrigger.cs" />
+    <Compile Include="Interaction\Triggers\Selectors\BestTriggerSelectorBase.cs" />
+    <Compile Include="Interaction\Triggers\Selectors\RangeBestTriggerSelector.cs" />
+    <Compile Include="Interaction\Triggers\Selectors\RaycastBestTriggerSelector.cs" />
+    <Compile Include="Interaction\Triggers\Trigger.cs" />
+    <Compile Include="Interaction\Triggers\TriggerActionInfo.cs" />
+    <Compile Include="Interaction\Triggers\TriggerColliderUse.cs" />
+    <Compile Include="Interaction\Triggers\TriggerEventData.cs" />
+    <Compile Include="Interaction\Triggers\TriggerInputHandler.cs" />
+    <Compile Include="Interaction\Triggers\TriggerInputHandlerBase.cs" />
+    <Compile Include="Interaction\Triggers\TriggerRangeHandler.cs" />
+    <Compile Include="Interaction\Triggers\TriggerRangeHandler2D.cs" />
+    <Compile Include="Interaction\Triggers\TriggerVisuals.cs" />
+    <Compile Include="Interaction\Triggers\UI\TriggerUI.cs" />
+    <Compile Include="Interaction\Triggers\UNet\UNetTrigger.cs" />
+    <Compile Include="Interaction\Triggers\UNet\UNetTriggerColliderUse.cs" />
+    <Compile Include="Interaction\Triggers\Utilities\TriggerUtility.cs" />
+    <Compile Include="Localization\ExtensionMethods\AudioSourceExtensionMethods.cs" />
+    <Compile Include="Localization\Interfaces\ILocalizedObject.cs" />
+    <Compile Include="Localization\LocalizationDatabase.cs" />
+    <Compile Include="Localization\LocalizationManager.cs" />
+    <Compile Include="Localization\LocalizedAudioClip.cs" />
+    <Compile Include="Localization\LocalizedAudioClipInfo.cs" />
+    <Compile Include="Localization\LocalizedObject.cs" />
+    <Compile Include="Localization\LocalizedObjectBase.cs" />
+    <Compile Include="Localization\LocalizedSprite.cs" />
+    <Compile Include="Localization\LocalizedString.cs" />
+    <Compile Include="Localization\LocalizedTexture2D.cs" />
+    <Compile Include="Serialization\Asset.cs" />
+    <Compile Include="Serialization\BetterMonoBehaviour.cs" />
+    <Compile Include="Serialization\BetterScriptableObject.cs" />
+    <Compile Include="Serialization\BetterSerializationModel.cs" />
+    <Compile Include="Serialization\fsUnityEngineObjectConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Converters\fsArrayConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Converters\fsDateConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Converters\fsDictionaryConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Converters\fsEnumConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Converters\fsForwardConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Converters\fsGuidConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Converters\fsIEnumerableConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Converters\fsKeyValuePairConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Converters\fsNullableConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Converters\fsPrimitiveConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Converters\fsReflectedConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Converters\fsTypeConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Converters\fsWeakReferenceConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Converters\Unity\AnimationCurve_DirectConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Converters\Unity\Bounds_DirectConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Converters\Unity\Gradient_DirectConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Converters\Unity\GUIStyleState_DirectConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Converters\Unity\GUIStyle_DirectConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Converters\Unity\Keyframe_DirectConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Converters\Unity\LayerMask_DirectConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Converters\Unity\RectOffset_DirectConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Converters\Unity\Rect_DirectConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\fsAotCompilationManager.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\fsBaseConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\fsConfig.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\fsContext.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\fsConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\fsConverterRegistrar.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\fsData.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\fsDirectConverter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\fsExceptions.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\fsIgnoreAttribute.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\fsISerializationCallbacks.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\fsJsonParser.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\fsJsonPrinter.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\fsMemberSerialization.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\fsObjectAttribute.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\fsObjectProcessor.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\fsPropertyAttribute.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\fsResult.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\fsSerializer.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Internal\fsCyclicReferenceManager.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Internal\fsOption.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Internal\fsPortableReflection.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Internal\fsTypeExtensions.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Internal\fsVersionedType.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Internal\fsVersionManager.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Reflection\fsMetaProperty.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Reflection\fsMetaType.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Reflection\fsReflectionUtility.cs" />
+    <Compile Include="Serialization\FullSerializer\Source\Reflection\fsTypeCache.cs" />
+    <Compile Include="Serialization\JsonSerializer.cs" />
+    <Compile Include="Serialization\JsonSerializerObsolete.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Devdog.General2.asmdef" />
+    <Content Include="General\Helpers\AnimatorHelper.cs.meta" />
+    <Content Include="General\Integrations\Rewired.meta" />
+    <Content Include="General\Integrations\Rewired\RewiredHelper.cs.meta" />
+    <Content Include="General\Integrations\Rewired\TriggerRewiredInputHandler.cs.meta" />
+    <Content Include="General\Integrations\Rewired\UI.meta" />
+    <Content Include="General\Integrations\Rewired\UIWindowRewiredInputHandler.cs.meta" />
+    <Content Include="General\Integrations\Rewired\UI\RewiredTriggerUI.cs.meta" />
+    <Content Include="General\Misc\Attributes.meta" />
+    <Content Include="General\Misc\Attributes\AllowSceneObjectsAttribute.cs.meta" />
+    <Content Include="General\Misc\Attributes\ArrayControlOptionsAttribute.cs.meta" />
+    <Content Include="General\Misc\Attributes\CategoryAttribute.cs.meta" />
+    <Content Include="General\Misc\Attributes\CustomSerializationAttribute.cs.meta" />
+    <Content Include="General\Misc\Attributes\ForceCustomObjectPickerAttribute.cs.meta" />
+    <Content Include="General\Misc\Attributes\ForceStandardObjectPickerAttribute.cs.meta" />
+    <Content Include="General\Misc\Attributes\HideGroupAttribute.cs.meta" />
+    <Content Include="General\Misc\Attributes\HideInCreationWindowAttribute.cs.meta" />
+    <Content Include="General\Misc\Attributes\HideInPropertiesAttribute.cs.meta" />
+    <Content Include="General\Misc\Attributes\HideTypePicker.cs.meta" />
+    <Content Include="General\Misc\Attributes\IgnoreCustomSerializationAttribute.cs.meta" />
+    <Content Include="General\Misc\Attributes\InspectorReadOnlyAttribute.cs.meta" />
+    <Content Include="General\Misc\Attributes\OnlyDerivedTypesAttribute.cs.meta" />
+    <Content Include="General\Misc\Attributes\ReplacedByAttribute.cs.meta" />
+    <Content Include="General\Misc\Attributes\RequiredAttribute.cs.meta" />
+    <Content Include="General\Misc\Attributes\SummaryAttribute.cs.meta" />
+    <Content Include="General\Misc\AudioClipInfo.cs.meta" />
+    <Content Include="General\Misc\CursorIcon.cs.meta" />
+    <Content Include="General\Misc\DestroyAfterSeconds.cs.meta" />
+    <Content Include="General\Misc\DevdogLogger.cs.meta" />
+    <Content Include="General\Misc\DisableParticleSystemAfterSeconds.cs.meta" />
+    <Content Include="General\Misc\DontDestroyOnLoad.cs.meta" />
+    <Content Include="General\Misc\ExtensionMethods.meta" />
+    <Content Include="General\Misc\ExtensionMethods\AnimatorExtensionMethods.cs.meta" />
+    <Content Include="General\Misc\ExtensionMethods\AudioSourceExtensionMethods.cs.meta" />
+    <Content Include="General\Misc\ExtensionMethods\ComponentExtensionMethod.cs.meta" />
+    <Content Include="General\Misc\ExtensionMethods\GameObjectExtensionMethods.cs.meta" />
+    <Content Include="General\Misc\ExtensionMethods\TransformExtensionMethods.cs.meta" />
+    <Content Include="General\Misc\FMinMaxRange.cs.meta" />
+    <Content Include="General\Misc\Interfaces.meta" />
+    <Content Include="General\Misc\Interfaces\ILocalIdentifier.cs.meta" />
+    <Content Include="General\Misc\LocalIdentifier.cs.meta" />
+    <Content Include="General\Misc\Managers.meta" />
+    <Content Include="General\Misc\Managers\AudioManager.cs.meta" />
+    <Content Include="General\Misc\Managers\GeneralSettingsManager.cs.meta" />
+    <Content Include="General\Misc\Managers\InputManager.cs.meta" />
+    <Content Include="General\Misc\Managers\ManagerBase.cs.meta" />
+    <Content Include="General\Misc\Managers\ScriptableObjects.meta" />
+    <Content Include="General\Misc\Managers\ScriptableObjects\GeneralSettings.cs.meta" />
+    <Content Include="General\Misc\MinMaxRange.cs.meta" />
+    <Content Include="General\Misc\MinMaxVector3.cs.meta" />
+    <Content Include="General\Misc\MotionInfo.cs.meta" />
+    <Content Include="General\Misc\Pool.meta" />
+    <Content Include="General\Misc\Pool\ComponentPool.cs.meta" />
+    <Content Include="General\Misc\Pool\GameObjectPool.cs.meta" />
+    <Content Include="General\Misc\Pool\Interfaces.meta" />
+    <Content Include="General\Misc\Pool\Interfaces\IPoolable.cs.meta" />
+    <Content Include="General\Misc\Pool\PoolBase.cs.meta" />
+    <Content Include="General\Misc\SinWave.cs.meta" />
+    <Content Include="General\Misc\Timer.meta" />
+    <Content Include="General\Misc\Timer\FakeTimerHelper.cs.meta" />
+    <Content Include="General\Misc\Timer\Interfaces.meta" />
+    <Content Include="General\Misc\Timer\Interfaces\ITimerHelper.cs.meta" />
+    <Content Include="General\Misc\Timer\TimerHelper.cs.meta" />
+    <Content Include="General\Misc\Timer\TimerUtility.cs.meta" />
+    <Content Include="General\Misc\UNet.meta" />
+    <Content Include="General\Misc\UNet\UNetDestroyComponents.cs.meta" />
+    <Content Include="General\Utilities\CoroutineUtility.cs.meta" />
+    <Content Include="General\Utilities\ReflectionUtility.cs.meta" />
+    <Content Include="General\Utilities\SceneUtility.cs.meta" />
+    <Content Include="General\Utilities\UIUtility.cs.meta" />
+    <Content Include="General\Utilities\UIWindowUtility.cs.meta" />
+    <Content Include="General\Windows\DraggableWindow.cs.meta" />
+    <Content Include="General\Windows\Interfaces.meta" />
+    <Content Include="General\Windows\Interfaces\IUIWindowInputHandler.cs.meta" />
+    <Content Include="General\Windows\Interfaces\IUIWindowVisuals.cs.meta" />
+    <Content Include="General\Windows\UIWindow.cs.meta" />
+    <Content Include="General\Windows\UIWindowField.cs.meta" />
+    <Content Include="General\Windows\UIWindowInputHandler.cs.meta" />
+    <Content Include="General\Windows\UIWindowSync.cs.meta" />
+    <Content Include="General\Windows\UIWindowVisuals.cs.meta" />
+    <Content Include="Interaction\Characters.meta" />
+    <Content Include="Interaction\Characters\Character.cs.meta" />
+    <Content Include="Interaction\Characters\Interfaces.meta" />
+    <Content Include="Interaction\Characters\Interfaces\IPlayerInputCallbacks.cs.meta" />
+    <Content Include="Interaction\Characters\Managers.meta" />
+    <Content Include="Interaction\Characters\Managers\PlayerManager.cs.meta" />
+    <Content Include="Interaction\Characters\Player.cs.meta" />
+    <Content Include="Interaction\Characters\Player2D.cs.meta" />
+    <Content Include="Interaction\Characters\UNet.meta" />
+    <Content Include="Interaction\Characters\UNet\Messages.meta" />
+    <Content Include="Interaction\Characters\UNet\Messages\RequestUseTriggerMessage.cs.meta" />
+    <Content Include="Interaction\Characters\UNet\UNetGeneralActionsBridge.cs.meta" />
+    <Content Include="Interaction\Characters\UNet\UNetPlayerInitializer.cs.meta" />
+    <Content Include="Interaction\Interaction.csproj.meta" />
+    <Content Include="Interaction\Relevancy.meta" />
+    <Content Include="Interaction\Relevancy\Interfaces.meta" />
+    <Content Include="Interaction\Relevancy\Interfaces\IObjectRelevancy.cs.meta" />
+    <Content Include="Interaction\Relevancy\ObjectDistanceRelevancy.cs.meta" />
+    <Content Include="Interaction\Relevancy\ObjectNullRelevancy.cs.meta" />
+    <Content Include="Interaction\Triggers.meta" />
+    <Content Include="Interaction\Triggers\IgnoreRangeTriggerRangeHandler.cs.meta" />
+    <Content Include="Interaction\Triggers\Interfaces.meta" />
+    <Content Include="Interaction\Triggers\Interfaces\ITriggerCallbacks.cs.meta" />
+    <Content Include="Interaction\Triggers\Interfaces\ITriggerColliderUse.cs.meta" />
+    <Content Include="Interaction\Triggers\Interfaces\ITriggerInputHandler.cs.meta" />
+    <Content Include="Interaction\Triggers\Interfaces\ITriggerRangeHandler.cs.meta" />
+    <Content Include="Interaction\Triggers\ITrigger.cs.meta" />
+    <Content Include="Interaction\Triggers\Selectors.meta" />
+    <Content Include="Interaction\Triggers\Selectors\BestTriggerSelectorBase.cs.meta" />
+    <Content Include="Interaction\Triggers\Selectors\RangeBestTriggerSelector.cs.meta" />
+    <Content Include="Interaction\Triggers\Selectors\RaycastBestTriggerSelector.cs.meta" />
+    <Content Include="Interaction\Triggers\Trigger.cs.meta" />
+    <Content Include="Interaction\Triggers\TriggerActionInfo.cs.meta" />
+    <Content Include="Interaction\Triggers\TriggerColliderUse.cs.meta" />
+    <Content Include="Interaction\Triggers\TriggerEventData.cs.meta" />
+    <Content Include="Interaction\Triggers\TriggerInputHandler.cs.meta" />
+    <Content Include="Interaction\Triggers\TriggerInputHandlerBase.cs.meta" />
+    <Content Include="Interaction\Triggers\TriggerRangeHandler.cs.meta" />
+    <Content Include="Interaction\Triggers\TriggerRangeHandler2D.cs.meta" />
+    <Content Include="Interaction\Triggers\TriggerVisuals.cs.meta" />
+    <Content Include="Interaction\Triggers\UI.meta" />
+    <Content Include="Interaction\Triggers\UI\TriggerUI.cs.meta" />
+    <Content Include="Interaction\Triggers\UNet.meta" />
+    <Content Include="Interaction\Triggers\UNet\UNetTrigger.cs.meta" />
+    <Content Include="Interaction\Triggers\UNet\UNetTriggerColliderUse.cs.meta" />
+    <Content Include="Interaction\Triggers\Utilities.meta" />
+    <Content Include="Interaction\Triggers\Utilities\TriggerUtility.cs.meta" />
+    <Content Include="Localization\ExtensionMethods.meta" />
+    <Content Include="Localization\ExtensionMethods\AudioSourceExtensionMethods.cs.meta" />
+    <Content Include="Localization\Interfaces.meta" />
+    <Content Include="Localization\Interfaces\ILocalizedObject.cs.meta" />
+    <Content Include="Localization\Localization.csproj.meta" />
+    <Content Include="Localization\LocalizationDatabase.cs.meta" />
+    <Content Include="Localization\LocalizationManager.cs.meta" />
+    <Content Include="Localization\LocalizedAudioClip.cs.meta" />
+    <Content Include="Localization\LocalizedAudioClipInfo.cs.meta" />
+    <Content Include="Localization\LocalizedObject.cs.meta" />
+    <Content Include="Localization\LocalizedObjectBase.cs.meta" />
+    <Content Include="Localization\LocalizedSprite.cs.meta" />
+    <Content Include="Localization\LocalizedString.cs.meta" />
+    <Content Include="Localization\LocalizedTexture2D.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Converters.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Converters\fsArrayConverter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Converters\fsDateConverter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Converters\fsDictionaryConverter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Converters\fsEnumConverter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Converters\fsForwardConverter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Converters\fsGuidConverter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Converters\fsIEnumerableConverter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Converters\fsKeyValuePairConverter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Converters\fsNullableConverter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Converters\fsPrimitiveConverter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Converters\fsReflectedConverter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Converters\fsTypeConverter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Converters\fsWeakReferenceConverter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Converters\Unity.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Converters\Unity\AnimationCurve_DirectConverter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Converters\Unity\Bounds_DirectConverter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Converters\Unity\Gradient_DirectConverter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Converters\Unity\GUIStyleState_DirectConverter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Converters\Unity\GUIStyle_DirectConverter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Converters\Unity\Keyframe_DirectConverter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Converters\Unity\LayerMask_DirectConverter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Converters\Unity\RectOffset_DirectConverter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Converters\Unity\Rect_DirectConverter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\fsAotCompilationManager.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\fsBaseConverter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\fsConfig.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\fsContext.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\fsConverter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\fsConverterRegistrar.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\fsData.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\fsDirectConverter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\fsExceptions.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\fsIgnoreAttribute.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\fsISerializationCallbacks.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\fsJsonParser.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\fsJsonPrinter.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\fsMemberSerialization.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\fsObjectAttribute.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\fsObjectProcessor.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\fsPropertyAttribute.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\fsResult.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\fsSerializer.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Internal.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Internal\fsCyclicReferenceManager.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Internal\fsOption.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Internal\fsPortableReflection.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Internal\fsTypeExtensions.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Internal\fsVersionedType.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Internal\fsVersionManager.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Reflection.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Reflection\fsMetaProperty.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Reflection\fsMetaType.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Reflection\fsReflectionUtility.cs.meta" />
+    <Content Include="Serialization\FullSerializer\Source\Reflection\fsTypeCache.cs.meta" />
+    <Content Include="Serialization\Plugins\OdinSerializer.dll" />
+    <Content Include="Serialization\Plugins\OdinSerializer.dll.meta" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+</Project>

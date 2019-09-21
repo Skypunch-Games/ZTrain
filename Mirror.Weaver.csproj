@@ -348,6 +348,9 @@
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>E:/Repositories/ZTrain/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
+    <Reference Include="OdinSerializer">
+      <HintPath>E:/Repositories/ZTrain/Assets/Rucksack/General2/Runtime/Serialization/Plugins/OdinSerializer.dll</HintPath>
+    </Reference>
     <Reference Include="mscorlib">
       <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
     </Reference>

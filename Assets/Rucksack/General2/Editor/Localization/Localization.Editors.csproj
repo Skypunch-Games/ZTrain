@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7FEF62A7-C119-46E3-B956-D448F6FC04B8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Devdog.General.Localization.Editors</RootNamespace>
+    <AssemblyName>Devdog.General.Localization.Editors</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\_BUILD_Debug</OutputPath>
+    <IntermediateOutputPath>..\..\obj\</IntermediateOutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\_BUILD_Release</OutputPath>
+    <IntermediateOutputPath>..\..\obj\</IntermediateOutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>F:\Programs\Unity\2017_3\Editor\Data\Managed\UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>F:\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Editor\ChangeKeyEditorWindow.cs" />
+    <Compile Include="Editor\Drawers\LocalizedAudioClipDrawer.cs" />
+    <Compile Include="Editor\Drawers\LocalizedObjectDrawerBase.cs" />
+    <Compile Include="Editor\Drawers\LocalizedSpriteDrawer.cs" />
+    <Compile Include="Editor\Drawers\LocalizedStringDrawer.cs" />
+    <Compile Include="Editor\Drawers\LocalizedTextureEditor.cs" />
+    <Compile Include="Editor\Drawers\LocalizedUnityEngineObjectDrawer.cs" />
+    <Compile Include="Editor\Editors\LocalizedAudioClipEditor.cs" />
+    <Compile Include="Editor\Editors\LocalizedObjectEditorBase.cs" />
+    <Compile Include="Editor\Editors\LocalizedSpriteEditor.cs" />
+    <Compile Include="Editor\Editors\LocalizedStringEditor.cs" />
+    <Compile Include="Editor\Editors\LocalizedTextureEditor.cs" />
+    <Compile Include="Editor\Editors\LocalizedUnityEngineObjectEditor.cs" />
+    <Compile Include="Editor\LocalizationEditorUtility.cs" />
+    <Compile Include="Editor\LocalizationEditorWindow.cs" />
+    <Compile Include="Editor\LocalizationManagerEditor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Devdog.General2.Localization.Editors.asmdef" />
+    <Content Include="Editor\ChangeKeyEditorWindow.cs.meta" />
+    <Content Include="Editor\Drawers.meta" />
+    <Content Include="Editor\Drawers\LocalizedAudioClipDrawer.cs.meta" />
+    <Content Include="Editor\Drawers\LocalizedObjectDrawerBase.cs.meta" />
+    <Content Include="Editor\Drawers\LocalizedSpriteDrawer.cs.meta" />
+    <Content Include="Editor\Drawers\LocalizedStringDrawer.cs.meta" />
+    <Content Include="Editor\Drawers\LocalizedTextureEditor.cs.meta" />
+    <Content Include="Editor\Drawers\LocalizedUnityEngineObjectDrawer.cs.meta" />
+    <Content Include="Editor\Editors.meta" />
+    <Content Include="Editor\Editors\LocalizedAudioClipEditor.cs.meta" />
+    <Content Include="Editor\Editors\LocalizedObjectEditorBase.cs.meta" />
+    <Content Include="Editor\Editors\LocalizedSpriteEditor.cs.meta" />
+    <Content Include="Editor\Editors\LocalizedStringEditor.cs.meta" />
+    <Content Include="Editor\Editors\LocalizedTextureEditor.cs.meta" />
+    <Content Include="Editor\Editors\LocalizedUnityEngineObjectEditor.cs.meta" />
+    <Content Include="Editor\LocalizationEditorUtility.cs.meta" />
+    <Content Include="Editor\LocalizationEditorWindow.cs.meta" />
+    <Content Include="Editor\LocalizationManagerEditor.cs.meta" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\General.Editors\General.Editors.csproj">
+      <Project>{cac6b109-9224-413b-9ee4-9e66971c4ec6}</Project>
+      <Name>General.Editors</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\General\General.csproj">
+      <Project>{a36fe07e-2ce6-4cc1-9fd1-8c3a7bb76342}</Project>
+      <Name>General</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Localization\Localization.csproj">
+      <Project>{9ed45a1a-3ea7-41b4-8964-e6ebb3e48ea5}</Project>
+      <Name>Localization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Serialization\Serialization.csproj">
+      <Project>{9da49e38-e4c2-4431-9042-cfd108d1affa}</Project>
+      <Name>Serialization</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+</Project>

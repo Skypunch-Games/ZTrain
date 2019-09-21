@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CAC6B109-9224-413B-9EE4-9E66971C4EC6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Devdog.General.Editors</RootNamespace>
+    <AssemblyName>Devdog.General.Editors</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\_BUILD_Debug</OutputPath>
+    <IntermediateOutputPath>..\..\obj\</IntermediateOutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\_BUILD_Release</OutputPath>
+    <IntermediateOutputPath>..\..\obj\</IntermediateOutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>F:\Programs\Unity\2017_3\Editor\Data\Managed\UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>F:\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Editor\Attributes\CustomDrawerAttribute.cs" />
+    <Compile Include="Editor\Attributes\CustomObjectPickerAttribute.cs" />
+    <Compile Include="Editor\CrudEditors\EditorCrudBase.cs" />
+    <Compile Include="Editor\CrudEditors\EmptyEditor.cs" />
+    <Compile Include="Editor\CrudEditors\IEditorCrud.cs" />
+    <Compile Include="Editor\ForceCustomObjectPickerAttributeEditor.cs" />
+    <Compile Include="Editor\Helpers\ColorBlock.cs" />
+    <Compile Include="Editor\Helpers\FoldoutBlock.cs" />
+    <Compile Include="Editor\Helpers\FoldoutBlockUtility.cs" />
+    <Compile Include="Editor\Helpers\GroupBlock.cs" />
+    <Compile Include="Editor\Helpers\GUIDisabledBlock.cs" />
+    <Compile Include="Editor\Helpers\GUIMatrixBlock.cs" />
+    <Compile Include="Editor\Helpers\IndentBlock.cs" />
+    <Compile Include="Editor\Helpers\ScrollableBlock.cs" />
+    <Compile Include="Editor\Helpers\VerticalLayoutBlock.cs" />
+    <Compile Include="Editor\InspectorReadOnlyAttributeEditor.cs" />
+    <Compile Include="Editor\ModuleList.cs" />
+    <Compile Include="Editor\Other\BetterEditorWindow.cs" />
+    <Compile Include="Editor\Other\DerivedTypeInformation.cs" />
+    <Compile Include="Editor\Other\EditorStyles.cs" />
+    <Compile Include="Editor\Other\EditorUtility.cs" />
+    <Compile Include="Editor\Pickers\GenericObjectPickerBaseEditor.cs" />
+    <Compile Include="Editor\Pickers\ObjectPickerBaseEditor.cs" />
+    <Compile Include="Editor\Pickers\ObjectPickerUtility.cs" />
+    <Compile Include="Editor\Pickers\ScriptableObjectPickerEditor.cs" />
+    <Compile Include="Editor\Pickers\ScriptPickerEditor.cs" />
+    <Compile Include="Editor\Pickers\UnityEngineObjectPickerEditor.cs" />
+    <Compile Include="Editor\ReflectionDrawerStyles.cs" />
+    <Compile Include="Editor\ReflectionDrawers\AnimationCurveDrawer.cs" />
+    <Compile Include="Editor\ReflectionDrawers\ArrayDrawer.cs" />
+    <Compile Include="Editor\ReflectionDrawers\BoolDrawer.cs" />
+    <Compile Include="Editor\ReflectionDrawers\ChildrenValueDrawerBase.cs" />
+    <Compile Include="Editor\ReflectionDrawers\ClassDrawer.cs" />
+    <Compile Include="Editor\ReflectionDrawers\ColorDrawer.cs" />
+    <Compile Include="Editor\ReflectionDrawers\DictionaryDrawer.cs" />
+    <Compile Include="Editor\ReflectionDrawers\DrawerBase.cs" />
+    <Compile Include="Editor\ReflectionDrawers\EnumDrawer.cs" />
+    <Compile Include="Editor\ReflectionDrawers\FloatDrawer.cs" />
+    <Compile Include="Editor\ReflectionDrawers\IntDrawer.cs" />
+    <Compile Include="Editor\ReflectionDrawers\InterfaceDrawer.cs" />
+    <Compile Include="Editor\ReflectionDrawers\Interfaces\IChildrenDrawer.cs" />
+    <Compile Include="Editor\ReflectionDrawers\LayermaskDrawer.cs" />
+    <Compile Include="Editor\ReflectionDrawers\QuaternionDrawer.cs" />
+    <Compile Include="Editor\ReflectionDrawers\SimpleValueDrawer.cs" />
+    <Compile Include="Editor\ReflectionDrawers\StringDrawer.cs" />
+    <Compile Include="Editor\ReflectionDrawers\UintDrawer.cs" />
+    <Compile Include="Editor\ReflectionDrawers\UnityObjectDrawer.cs" />
+    <Compile Include="Editor\ReflectionDrawers\ValueTypeDrawer.cs" />
+    <Compile Include="Editor\ReflectionDrawers\Vec2Drawer.cs" />
+    <Compile Include="Editor\ReflectionDrawers\Vec3Drawer.cs" />
+    <Compile Include="Editor\ReflectionDrawers\Vec4Drawer.cs" />
+    <Compile Include="Editor\ReflectionDrawerUtility.cs" />
+    <Compile Include="Editor\RequiredAttributeEditor.cs" />
+    <Compile Include="Editor\UIWindowEditor.cs" />
+    <Compile Include="Editor\UIWindowFieldEditor.cs" />
+    <Compile Include="Editor\Utilities\EditorReflectionUtility.cs" />
+    <Compile Include="Editor\Utilities\ScriptableObjectUtility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Editor\Attributes.meta" />
+    <Content Include="Editor\Attributes\CustomDrawerAttribute.cs.meta" />
+    <Content Include="Editor\Attributes\CustomObjectPickerAttribute.cs.meta" />
+    <Content Include="Editor\CrudEditors.meta" />
+    <Content Include="Editor\CrudEditors\EditorCrudBase.cs.meta" />
+    <Content Include="Editor\CrudEditors\EmptyEditor.cs.meta" />
+    <Content Include="Editor\CrudEditors\IEditorCrud.cs.meta" />
+    <Content Include="Editor\ForceCustomObjectPickerAttributeEditor.cs.meta" />
+    <Content Include="Editor\Helpers.meta" />
+    <Content Include="Editor\Helpers\ColorBlock.cs.meta" />
+    <Content Include="Editor\Helpers\FoldoutBlock.cs.meta" />
+    <Content Include="Editor\Helpers\FoldoutBlockUtility.cs.meta" />
+    <Content Include="Editor\Helpers\GroupBlock.cs.meta" />
+    <Content Include="Editor\Helpers\GUIDisabledBlock.cs.meta" />
+    <Content Include="Editor\Helpers\GUIMatrixBlock.cs.meta" />
+    <Content Include="Editor\Helpers\IndentBlock.cs.meta" />
+    <Content Include="Editor\Helpers\ScrollableBlock.cs.meta" />
+    <Content Include="Editor\Helpers\VerticalLayoutBlock.cs.meta" />
+    <Content Include="Editor\InspectorReadOnlyAttributeEditor.cs.meta" />
+    <Content Include="Editor\ModuleList.cs.meta" />
+    <Content Include="Editor\Other.meta" />
+    <Content Include="Editor\Other\BetterEditorWindow.cs.meta" />
+    <Content Include="Editor\Other\DerivedTypeInformation.cs.meta" />
+    <Content Include="Editor\Other\EditorStyles.cs.meta" />
+    <Content Include="Editor\Other\EditorUtility.cs.meta" />
+    <Content Include="Editor\Pickers.meta" />
+    <Content Include="Editor\Pickers\GenericObjectPickerBaseEditor.cs.meta" />
+    <Content Include="Editor\Pickers\ObjectPickerBaseEditor.cs.meta" />
+    <Content Include="Editor\Pickers\ObjectPickerUtility.cs.meta" />
+    <Content Include="Editor\Pickers\ScriptableObjectPickerEditor.cs.meta" />
+    <Content Include="Editor\Pickers\ScriptPickerEditor.cs.meta" />
+    <Content Include="Editor\Pickers\UnityEngineObjectPickerEditor.cs.meta" />
+    <Content Include="Editor\ReflectionDrawers.meta" />
+    <Content Include="Editor\ReflectionDrawerStyles.cs.meta" />
+    <Content Include="Editor\ReflectionDrawers\AnimationCurveDrawer.cs.meta" />
+    <Content Include="Editor\ReflectionDrawers\ArrayDrawer.cs.meta" />
+    <Content Include="Editor\ReflectionDrawers\BoolDrawer.cs.meta" />
+    <Content Include="Editor\ReflectionDrawers\ChildrenValueDrawerBase.cs.meta" />
+    <Content Include="Editor\ReflectionDrawers\ClassDrawer.cs.meta" />
+    <Content Include="Editor\ReflectionDrawers\ColorDrawer.cs.meta" />
+    <Content Include="Editor\ReflectionDrawers\DictionaryDrawer.cs.meta" />
+    <Content Include="Editor\ReflectionDrawers\DrawerBase.cs.meta" />
+    <Content Include="Editor\ReflectionDrawers\EnumDrawer.cs.meta" />
+    <Content Include="Editor\ReflectionDrawers\FloatDrawer.cs.meta" />
+    <Content Include="Editor\ReflectionDrawers\IntDrawer.cs.meta" />
+    <Content Include="Editor\ReflectionDrawers\InterfaceDrawer.cs.meta" />
+    <Content Include="Editor\ReflectionDrawers\Interfaces.meta" />
+    <Content Include="Editor\ReflectionDrawers\Interfaces\IChildrenDrawer.cs.meta" />
+    <Content Include="Editor\ReflectionDrawers\LayermaskDrawer.cs.meta" />
+    <Content Include="Editor\ReflectionDrawers\QuaternionDrawer.cs.meta" />
+    <Content Include="Editor\ReflectionDrawers\SimpleValueDrawer.cs.meta" />
+    <Content Include="Editor\ReflectionDrawers\StringDrawer.cs.meta" />
+    <Content Include="Editor\ReflectionDrawers\UintDrawer.cs.meta" />
+    <Content Include="Editor\ReflectionDrawers\UnityObjectDrawer.cs.meta" />
+    <Content Include="Editor\ReflectionDrawers\ValueTypeDrawer.cs.meta" />
+    <Content Include="Editor\ReflectionDrawers\Vec2Drawer.cs.meta" />
+    <Content Include="Editor\ReflectionDrawers\Vec3Drawer.cs.meta" />
+    <Content Include="Editor\ReflectionDrawers\Vec4Drawer.cs.meta" />
+    <Content Include="Editor\ReflectionDrawerUtility.cs.meta" />
+    <Content Include="Editor\RequiredAttributeEditor.cs.meta" />
+    <Content Include="Editor\UIWindowEditor.cs.meta" />
+    <Content Include="Editor\UIWindowFieldEditor.cs.meta" />
+    <Content Include="Editor\Utilities\EditorReflectionUtility.cs.meta" />
+    <Content Include="Editor\Utilities\ScriptableObjectUtility.cs.meta" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\General\General.csproj">
+      <Project>{a36fe07e-2ce6-4cc1-9fd1-8c3a7bb76342}</Project>
+      <Name>General</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Serialization\Serialization.csproj">
+      <Project>{9da49e38-e4c2-4431-9042-cfd108d1affa}</Project>
+      <Name>Serialization</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+</Project>

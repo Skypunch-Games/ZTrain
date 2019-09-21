@@ -381,6 +381,11 @@
     <Compile Include="Assets\Gaia\Scripts\ValueAdds\ScreenShotter.cs" />
     <Compile Include="Assets\Gaia\Scripts\ValueAdds\UIConfiguration.cs" />
     <Compile Include="Assets\NatureManufacture Assets\NatureManufacture Wind\NM_Wind.cs" />
+    <Compile Include="Assets\Rucksack\Rucksack\Demo\Scripts\DemoSceneLoader.cs" />
+    <Compile Include="Assets\Rucksack\Rucksack\Demo\Scripts\DemoSimpleCameraMovement.cs" />
+    <Compile Include="Assets\Rucksack\Rucksack\Demo\Scripts\DemoSimpleCharacterWalker.cs" />
+    <Compile Include="Assets\Rucksack\Rucksack\Demo\Scripts\TriggerAreaHint.cs" />
+    <Compile Include="Assets\Rucksack\Rucksack\Demo\Scripts\UI\DemoHintUI.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GameSettings.cs" />
     <Compile Include="Assets\Scripts\MatchSettings.cs" />
@@ -554,6 +559,7 @@
     <None Include="Assets\Gaia\3rd Party Samplers\Ambient Samples\Ambient Water Sample\Shader\2019 Shaders\2019 Water Sample HD.txt" />
     <None Include="Assets\Gaia\Scripts\JsonSerialiser\_ReadMe.txt" />
     <None Include="Assets\NatureManufacture Assets\Object Shaders\Standard_Specular_Snow.shader" />
+    <None Include="Assets\Rucksack\Rucksack\Demo\Textures\InventoryIcons\__license.txt" />
     <None Include="Assets\AwesomeTechnologies\VegetationStudio\BillboardSystem\Resources\MinPostFilter\copyRGB.shader" />
     <None Include="Assets\Gaia\3rd Party Samplers\Ambient Samples\Ambient Water Sample\Shader\Simple Water Sample LW.txt" />
     <None Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\MegaSplat Integration\MegaSplat Integration.txt" />
@@ -573,6 +579,7 @@
     <None Include="Assets\Enviro - Sky and Weather\Core\Shaders\Particle\EnviroParticlesAdditive.shader" />
     <None Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\ShadowMaskCreator\Resources\ShadowHeight.shader" />
     <None Include="Assets\AwesomeTechnologies\VegetationStudio\BillboardSystem\Resources\Shaders\ATree.shader" />
+    <None Include="Assets\Rucksack\General2\plugin.xml" />
     <None Include="Assets\NatureManufacture Assets\Foliage Shaders\Advanced Grass Standard Snow.shader" />
     <None Include="Assets\NatureManufacture Assets\Foliage Shaders\Advanced Grass Light Snow.shader" />
     <None Include="Assets\AwesomeTechnologies\VegetationStudio\External\Clipper\Readme.txt" />
@@ -588,6 +595,7 @@
     <None Include="Assets\Gaia\3rd Party Samplers\README.txt" />
     <None Include="Assets\NatureManufacture Assets\Dynamic Nature - Mountain Tree Pack\HD and LW RP Support Packs Mountain Trees\README - 5.7 HD RP Import.txt" />
     <None Include="Assets\Gaia\Dependencies\Package Manager\PackageImportList2019_1_Builtin.txt" />
+    <None Include="Assets\Rucksack\Rucksack\Readme.txt" />
     <None Include="Assets\AwesomeTechnologies\VegetationStudio\BillboardSystem\Resources\Shaders\a_tree_baked.cginc" />
     <None Include="Assets\Gaia\Scripts\ExtensionSystem\GaiaXtnHeader.txt" />
     <None Include="Assets\NatureManufacture Assets\Dynamic Nature - Mountain Tree Pack\HD and LW RP Support Packs Mountain Trees\Readme about rendering piplines support.txt" />
@@ -597,6 +605,7 @@
     <None Include="Assets\AwesomeTechnologies\VegetationStudio\BillboardSystem\Resources\Shaders\RenderDiffuseAtlasTreeCreator.shader" />
     <None Include="Assets\AwesomeTechnologies\VegetationStudio\BillboardSystem\Resources\Shaders\RenderDiffuseAtlasNormal.shader" />
     <None Include="Assets\Gaia\Dependencies\Package Manager\PackageImportList2018_3_Builtin.txt" />
+    <None Include="Assets\Rucksack\Rucksack\Rucksack.xml" />
     <None Include="Assets\NatureManufacture Assets\Foliage Shaders\NM_indirect.cginc" />
     <None Include="Assets\Gaia\3rd Party Samplers\Turboscalpeur\Readme.txt" />
     <None Include="Assets\NatureManufacture Assets\Object Shaders\NM_indirect.cginc" />
@@ -613,6 +622,7 @@
     <None Include="Assets\Enviro - Sky and Weather\Enviro Lite\Resources\Shaders\EnviroLightMoonShaderCustom.shader" />
     <None Include="Assets\SimpleNetworkSync\SimpleNetworkSync\Example\Unpack a Demo.txt" />
     <None Include="Assets\Enviro - Sky and Weather\Core\Shaders\Particle\EnviroParticlesLightning.shader" />
+    <None Include="Assets\Models\PBR Viking Axe\ReadMe！！！.txt" />
     <None Include="Assets\Gaia\Documentation\Release Notes v1_9_0.txt" />
     <None Include="Assets\AwesomeTechnologies\VegetationStudio\Common\Resources\TerrainTextures\_Licence.txt" />
     <None Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\Resources\RenderVegetationColorMask.shader" />
@@ -661,6 +671,7 @@
     <None Include="Assets\AwesomeTechnologies\VegetationStudio\GrassSystem\microsplat_indirect.cginc" />
     <None Include="Assets\AwesomeTechnologies\VegetationStudio\GrassSystem\AGrassWind-R.shader" />
     <None Include="Assets\SimpleNetworkSync\Compression\plugins\Bitstream.xml" />
+    <None Include="Assets\Rucksack\Rucksack\Demo\Readme.txt" />
     <None Include="Assets\Enviro - Sky and Weather\version.txt" />
     <None Include="Assets\Enviro - Sky and Weather\Core\Resources\Shaders\EnviroBakeCubemap.shader" />
     <None Include="Assets\AwesomeTechnologies\Readme_VegetationStudio_DemoScene.txt" />
@@ -684,17 +695,17 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>E:/Repositories/ZTrain/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/Repositories/ZTrain/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>E:/Repositories/ZTrain/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>E:/Repositories/ZTrain/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>E:/Repositories/ZTrain/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>E:/Repositories/ZTrain/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>E:/Repositories/ZTrain/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -923,6 +934,9 @@
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>E:/Repositories/ZTrain/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="OdinSerializer">
+      <HintPath>E:/Repositories/ZTrain/Assets/Rucksack/General2/Runtime/Serialization/Plugins/OdinSerializer.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -1302,6 +1316,26 @@
     <ProjectReference Include="BitpackersASMDEF.csproj">
       <Project>{6B8C3F07-6B3B-ECBD-1D9C-5CA2EE60F7E8}</Project>
       <Name>BitpackersASMDEF</Name>
+    </ProjectReference>
+    <ProjectReference Include="Devdog.Rucksack.csproj">
+      <Project>{07266A02-164E-62B5-BDFB-F3BD1AFEEFEA}</Project>
+      <Name>Devdog.Rucksack</Name>
+    </ProjectReference>
+    <ProjectReference Include="Devdog.General2.Editors.csproj">
+      <Project>{B56852A1-BA6F-5194-9266-CB4599A490AF}</Project>
+      <Name>Devdog.General2.Editors</Name>
+    </ProjectReference>
+    <ProjectReference Include="Devdog.Rucksack.UnityBridge.Editors.csproj">
+      <Project>{A1D6DA71-890E-D16A-9566-7612B8655943}</Project>
+      <Name>Devdog.Rucksack.UnityBridge.Editors</Name>
+    </ProjectReference>
+    <ProjectReference Include="Devdog.Rucksack.UnityBridge.csproj">
+      <Project>{73DCA1FD-14E3-36EC-60AB-79EA598D6664}</Project>
+      <Name>Devdog.Rucksack.UnityBridge</Name>
+    </ProjectReference>
+    <ProjectReference Include="Devdog.General2.csproj">
+      <Project>{39DDB644-DB69-B76D-E10D-8A5842CD2D29}</Project>
+      <Name>Devdog.General2</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

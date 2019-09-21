@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1960803C-E8FC-40ED-867C-3CAF01E7A5CB}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Devdog.Rucksack.UnityBridge</RootNamespace>
+    <AssemblyName>Devdog.Rucksack.UnityBridge</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\_BUILD_Debug</OutputPath>
+    <IntermediateOutputPath>..\..\obj\</IntermediateOutputPath>
+    <DefineConstants>DEBUG;TRACE;ODIN_INSPECTOR;UNITY_EDITOR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\_BUILD_Release</OutputPath>
+    <IntermediateOutputPath>..\..\obj\</IntermediateOutputPath>
+    <DefineConstants>TRACE;ODIN_INSPECTOR;UNITY_EDITOR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Devdog.General, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\Devdog.General\_BUILD_Release\Devdog.General.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Devdog.General, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\Devdog.General\_BUILD_Release\Devdog.General.dll</HintPath>
+    </Reference>
+    <Reference Include="Devdog.General.Editors, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\Devdog.General\_BUILD_Release\Devdog.General.Editors.dll</HintPath>
+    </Reference>
+    <Reference Include="Devdog.General.Editors.Internal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\Devdog.General\_BUILD_Release\Devdog.General.Editors.Internal.dll</HintPath>
+    </Reference>
+    <Reference Include="Devdog.General.Editors.Internal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\Devdog.General\_BUILD_Release\Devdog.General.Editors.Internal.dll</HintPath>
+    </Reference>
+    <Reference Include="Devdog.General.Interaction, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\Devdog.General\_BUILD_Release\Devdog.General.Interaction.dll</HintPath>
+    </Reference>
+    <Reference Include="Devdog.General.Interaction, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\Devdog.General\_BUILD_Release\Devdog.General.Interaction.dll</HintPath>
+    </Reference>
+    <Reference Include="Devdog.General.Interaction.Editors, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\Devdog.General\_BUILD_Release\Devdog.General.Interaction.Editors.dll</HintPath>
+    </Reference>
+    <Reference Include="Devdog.General.Localization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\Devdog.General\_BUILD_Release\Devdog.General.Localization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Devdog.General.Localization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\Devdog.General\_BUILD_Release\Devdog.General.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="Devdog.General.Localization.Editors, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\Devdog.General\_BUILD_Release\Devdog.General.Localization.Editors.dll</HintPath>
+    </Reference>
+    <Reference Include="Devdog.General.Serialization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\Devdog.General\_BUILD_Release\Devdog.General.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Devdog.General.Serialization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\Devdog.General\_BUILD_Release\Devdog.General.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Devdog.General.Serialization.Editors, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\Devdog.General\_BUILD_Release\Devdog.General.Serialization.Editors.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayMaker, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\_BUILD_Debug\PlayMaker.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Attributes, Version=1.0.6.7, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\RucksackUnity\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Editor, Version=1.0.6.7, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\RucksackUnity\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Serialization, Version=1.0.6.7, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\RucksackUnity\Assets\Plugins\Sirenix\Assemblies\NoEditor\Sirenix.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Serialization.Config, Version=1.0.6.7, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\RucksackUnity\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Utilities, Version=1.0.6.7, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\RucksackUnity\Assets\Plugins\Sirenix\Assemblies\NoEditor\Sirenix.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Utilities.Editor, Version=1.0.6.7, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\RucksackUnity\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>F:\Programs\Unity\2017_3\Editor\Data\Managed\UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>F:\Programs\Unity\2017_3\Editor\Data\UnityExtensions\Unity\GUISystem\Editor\UnityEditor.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>F:\Programs\Unity\2017_3\Editor\Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Networking, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>F:\Programs\Unity\2017_3\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>F:\Programs\Unity\2017_3\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CharacterEquipment\EquipmentCollectionCreator.cs" />
+    <Compile Include="CharacterEquipment\Items\IUnityEquippableItemDefinition.cs" />
+    <Compile Include="CharacterEquipment\Items\UnityEquippableItemDefinition.cs" />
+    <Compile Include="CharacterEquipment\Items\UnityEquippableItemInstance.cs" />
+    <Compile Include="CharacterEquipment\MountPoints\ClothMeshMountPoint.cs" />
+    <Compile Include="CharacterEquipment\MountPoints\SkinnedMeshMountPoint.cs" />
+    <Compile Include="CharacterEquipment\MountPoints\StaticMeshMountPoint.cs" />
+    <Compile Include="CharacterEquipment\MountPoints\UnityMountPointBase.cs" />
+    <Compile Include="CharacterEquipment\UI\EquipmentCollectionSlotDragHandler.cs" />
+    <Compile Include="CharacterEquipment\UnityEquipmentTypeDatabase.cs" />
+    <Compile Include="CharacterEquipment\UnityEquippableCharacter.cs" />
+    <Compile Include="CharacterEquipment\UI\EquipmentCollectionUI.cs" />
+    <Compile Include="CharacterEquipment\UI\EquipmentCollectionSlotUI.cs" />
+    <Compile Include="CharacterEquipment\UI\EquipmentCollectionSlotInputHandler.cs" />
+    <Compile Include="CharacterEquipment\UnityEquipmentType.cs" />
+    <Compile Include="CharacterEquipment\UnityEquipmentTypes.cs" />
+    <Compile Include="CharacterEquipment\UnitySerializedEquipmentCollectionSlot.cs" />
+    <Compile Include="Characters\DropHandler.cs" />
+    <Compile Include="Characters\ICurrencyCollectionOwner.cs" />
+    <Compile Include="Characters\IEquipmentCollectionOwner.cs" />
+    <Compile Include="Characters\IInventoryCollectionOwner.cs" />
+    <Compile Include="Characters\IDropHandler.cs" />
+    <Compile Include="Characters\IInventoryPlayer.cs" />
+    <Compile Include="Characters\InventoryPlayer.cs" />
+    <Compile Include="Characters\TriggerItemInstancePickup.cs" />
+    <Compile Include="Characters\UNetInitPlayer.cs" />
+    <Compile Include="Collections\ItemCollectionCreator.cs" />
+    <Compile Include="Collections\ItemCollectionGenerator.cs" />
+    <Compile Include="Collections\LayoutItemCollectionCreator.cs" />
+    <Compile Include="Collections\Restrictions\CollectionRestrictionBase.cs" />
+    <Compile Include="Collections\Restrictions\ItemCollectionTypeRestriction.cs" />
+    <Compile Include="Collections\Restrictions\ItemCollectionTypeRestrictionBehaviour.cs" />
+    <Compile Include="Collections\Restrictions\ItemCollectionWeightRestriction.cs" />
+    <Compile Include="Collections\Restrictions\ItemCollectionWeightRestrictionBehaviour.cs" />
+    <Compile Include="Collections\UI\CollectionSlotDragHandlerBase.cs" />
+    <Compile Include="Collections\UI\CollectionSlotUIBase.cs" />
+    <Compile Include="Collections\UI\CollectionSlotUIWorldModelBase.cs" />
+    <Compile Include="Collections\UI\CollectionUIBase.cs" />
+    <Compile Include="Collections\UI\DynamicLayoutGroup.cs" />
+    <Compile Include="Collections\UI\EquippableItemCollectionSlotUIWorldModel.cs" />
+    <Compile Include="Collections\UI\ICollectionSlotInputHandler.cs" />
+    <Compile Include="Collections\UI\ICollectionSlotUICallbackReceiver.cs" />
+    <Compile Include="Collections\UI\ItemCollectionDropAreaUI.cs" />
+    <Compile Include="Collections\UI\ItemCollectionHelper.cs" />
+    <Compile Include="Collections\UI\ItemCollectionTooltipHandler.cs" />
+    <Compile Include="Collections\UI\ItemCollectionSellToVendorSlotInputHandler.cs" />
+    <Compile Include="Collections\UI\ItemCollectionSlotDisableOnEmpty.cs" />
+    <Compile Include="Collections\UI\ItemCollectionSlotDragHandler.cs" />
+    <Compile Include="Collections\UI\ItemCollectionSlotInputHandler.cs" />
+    <Compile Include="Collections\UI\ItemCollectionSlotUI.cs" />
+    <Compile Include="Collections\UI\ItemCollectionSlotUINewItem.cs" />
+    <Compile Include="Collections\UI\ItemCollectionSlotUIWorldModel.cs" />
+    <Compile Include="Collections\UI\ItemCollectionUI.cs" />
+    <Compile Include="Collections\UI\CollectionConditionalShowUI.cs" />
+    <Compile Include="Collections\TriggerItemCollectionEnabler.cs" />
+    <Compile Include="Collections\UI\ItemDefinitionCollectionSlotUI.cs" />
+    <Compile Include="Collections\UI\LayoutItemCollectionUI.cs" />
+    <Compile Include="Currencies\UI\CurrencyCollectionUIBase.cs" />
+    <Compile Include="Currencies\UI\CurrencyUIBase.cs" />
+    <Compile Include="Currencies\UnityCurrencyDatabase.cs" />
+    <Compile Include="Currencies\CurrencyCollectionCreator.cs" />
+    <Compile Include="Currencies\IUnityCurrency.cs" />
+    <Compile Include="Currencies\UI\CurrencyCollectionUI.cs" />
+    <Compile Include="Currencies\UI\CurrencyUI.cs" />
+    <Compile Include="Currencies\UnityCurrency.cs" />
+    <Compile Include="Currencies\UnityCurrencyDecorator.cs" />
+    <Compile Include="Database\UnityDatabaseManager.cs" />
+    <Compile Include="Editor\CharacterEquipment\UI\EquipmentCollectionUIEditor.cs" />
+    <Compile Include="Editor\CharacterEquipment\UnityEquipmentTypeEditor.cs" />
+    <Compile Include="Editor\CharacterEquipment\UnityMountableCharacterEditor.cs" />
+    <Compile Include="Editor\Characters\InventoryPlayerEditor.cs" />
+    <Compile Include="Editor\Collections\UI\ItemCollectionSlotUIEditor.cs" />
+    <Compile Include="Editor\Collections\UI\ItemCollectionUIEditor.cs" />
+    <Compile Include="Editor\Currencies\UnityCurrencyDecoratorEditor.cs" />
+    <Compile Include="Editor\General\EditorPageAttribute.cs" />
+    <Compile Include="Editor\General\InventoryScriptableObjectUtility.cs" />
+    <Compile Include="Editor\General\ObjectEditorBase.cs" />
+    <Compile Include="Editor\General\SerializedGuidEditor.cs" />
+    <Compile Include="Editor\General\SerializedTypeEditor.cs" />
+    <Compile Include="Editor\Items\EquippableItemDefinitionEditor.cs" />
+    <Compile Include="Editor\Items\ItemDefinitionEditor.cs" />
+    <Compile Include="Editor\Items\UnityShape2DEditor.cs" />
+    <Compile Include="Editor\MainEditors\CreateItemEditor.cs" />
+    <Compile Include="Editor\MainEditors\CurrencyEditor.cs" />
+    <Compile Include="Editor\MainEditors\DatabaseCollection.cs" />
+    <Compile Include="Editor\MainEditors\EquipmentTypeEditor.cs" />
+    <Compile Include="Editor\MainEditors\InventoryEditorCrudBase.cs" />
+    <Compile Include="Editor\MainEditors\ItemEditor.cs" />
+    <Compile Include="Editor\MainEditors\MainEditor.cs" />
+    <Compile Include="Editor\MainEditors\SettingsEditor.cs" />
+    <Compile Include="Editor\Networking\CollectionInspectorEditor.cs" />
+    <Compile Include="General\SerializedGuid.cs" />
+    <Compile Include="General\SerializedType.cs" />
+    <Compile Include="General\Spin.cs" />
+    <Compile Include="General\UI\DragAndDrop\ConditionalDragUI.cs" />
+    <Compile Include="General\UI\DragAndDrop\DragAndDropUtility.cs" />
+    <Compile Include="General\UI\DragAndDrop\IDragAndDropHandler.cs" />
+    <Compile Include="General\UI\DragAndDrop\IDropArea.cs" />
+    <Compile Include="General\UI\DragAndDrop\IDropAreaSourceOverwriter.cs" />
+    <Compile Include="General\UI\DragAndDrop\DragAndDropHandler.cs" />
+    <Compile Include="General\UI\UIMonoBehaviour.cs" />
+    <Compile Include="General\UI\UIQueuedMonoBehaviour.cs" />
+    <Compile Include="General\UnityDatabase.cs" />
+    <Compile Include="General\UnityLogger.cs" />
+    <Compile Include="Items\Databases\UnityItemDefinitionDatabase.cs" />
+    <Compile Include="Items\ExtensionMethods\UnityItemDefinitionExtensionMethods.cs" />
+    <Compile Include="Items\IUnityItemDefinition.cs" />
+    <Compile Include="Items\IUnityItemInstance.cs" />
+    <Compile Include="Items\UI\ItemTooltipUI.cs" />
+    <Compile Include="Items\UnityItemDefinition.cs" />
+    <Compile Include="Items\UnityItemFactory.cs" />
+    <Compile Include="Items\UnityItemInstance.cs" />
+    <Compile Include="Items\UnityShape2D.cs" />
+    <Compile Include="Networking\Collections\INetworkCollection.cs" />
+    <Compile Include="Networking\Collections\NetworkPermissionsMap.cs" />
+    <Compile Include="Networking\Collections\PermissionChangedResult.cs" />
+    <Compile Include="Networking\Collections\PermissionModel.cs" />
+    <Compile Include="Networking\Collections\PermissionModelComparer.cs" />
+    <Compile Include="Networking\Collections\ReadWritePermission.cs" />
+    <Compile Include="Networking\Collections\ServerCollectionRegistry.cs" />
+    <Compile Include="Networking\Currencies\ServerCurrencyCollectionRegistry.cs" />
+    <Compile Include="Networking\INetworkObject.cs" />
+    <Compile Include="Networking\Items\INetworkItemInstance.cs" />
+    <Compile Include="Networking\Items\ServerItemRegistry.cs" />
+    <Compile Include="Networking\NetworkInputValidatorBase.cs" />
+    <Compile Include="Networking\Vendors\INetworkVendor.cs" />
+    <Compile Include="Networking\Vendors\ServerVendorRegistry.cs" />
+    <Compile Include="Vendors\ItemVendorCreator.cs" />
+    <Compile Include="Vendors\UI\DragAndDrop\ItemVendorSellDropArea.cs" />
+    <Compile Include="Vendors\UI\ItemVendorCollectionSlotInputHandler.cs" />
+    <Compile Include="Vendors\UI\ItemVendorCollectionSlotUIWorldModel.cs" />
+    <Compile Include="Vendors\UI\ItemVendorCollectionSlotUI.cs" />
+    <Compile Include="Vendors\UI\ItemVendorCollectionUI.cs" />
+    <Compile Include="Vendors\UI\ItemVendorUI.cs" />
+    <Compile Include="Vendors\UI\VendorUIBase.cs" />
+    <Compile Include="Vendors\ItemVendorEnabler.cs" />
+    <Compile Include="Vendors\UnityVendor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CharacterEquipment.Items\CharacterEquipment.Items.csproj">
+      <Project>{5B3FA3D2-1202-49F2-8976-9DD64D81DDF9}</Project>
+      <Name>CharacterEquipment.Items</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CharacterEquipment\CharacterEquipment.csproj">
+      <Project>{F816655B-8C4B-45BF-8F27-077791DFD043}</Project>
+      <Name>CharacterEquipment</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Collections\Collections.csproj">
+      <Project>{AA2C5E81-380C-46BA-B1E4-CB528458917B}</Project>
+      <Name>Collections</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Crafting\Crafting.csproj">
+      <Project>{CF7089B6-A848-4535-B221-5384C189B3E2}</Project>
+      <Name>Crafting</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Currencies\Currencies.csproj">
+      <Project>{4C8B23EE-B25D-4E4D-BE51-885F1DCBE538}</Project>
+      <Name>Currencies</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Currencies\Currencies.csproj">
+      <Project>{4c8b23ee-b25d-4e4d-be51-885f1dcbe538}</Project>
+      <Name>Currencies</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Database\Database.csproj">
+      <Project>{D78BFF73-4D86-4EC0-BBF1-C128F631B16E}</Project>
+      <Name>Database</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\General\General.csproj">
+      <Project>{0db44684-bebf-4a6a-9edc-9b6c7ff59887}</Project>
+      <Name>General</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Generators\Generators.csproj">
+      <Project>{3e69d9a0-e6a6-44e1-840c-45dc8b31b916}</Project>
+      <Name>Generators</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Items\Items.csproj">
+      <Project>{A984C46F-0245-44F6-BE19-266B6EBF4B77}</Project>
+      <Name>Items</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vendors\Vendors.csproj">
+      <Project>{5a429261-ad9a-4227-ae7e-659e82e8c554}</Project>
+      <Name>Vendors</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Devdog.Rucksack.UnityBridge.asmdef" />
+    <Content Include="Editor\Characters\InventoryPlayerEditor.cs.meta" />
+    <Content Include="Editor\Collections\UI.meta" />
+    <Content Include="Editor\Collections\UI\ItemCollectionSlotUIEditor.cs.meta" />
+    <Content Include="Editor\Collections\UI\ItemCollectionUIEditor.cs.meta" />
+    <Content Include="Editor\Currencies\UnityCurrencyDecoratorEditor.cs.meta" />
+    <Content Include="Editor\Devdog.Rucksack.UnityBridge.Editors.asmdef" />
+    <Content Include="Editor\Items\ItemDefinitionEditor.cs.meta" />
+    <Content Include="Editor\Items\UnityShape2DEditor.cs.meta" />
+    <Content Include="Networking\Collections.meta" />
+    <Content Include="Networking\plugin.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
