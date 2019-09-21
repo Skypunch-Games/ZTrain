@@ -191,8 +191,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   serverOnly: 0
   localPlayerAuthority: 1
-  m_AssetId: 61180e38052d1ee44827d4bf6a791b4f
-  m_SceneId: 0
+  m_AssetId: 
+  m_SceneId: 3063211438
 --- !u!114 &-383845164274308614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -668,12 +668,12 @@ MonoBehaviour:
   syncInterval: 0.1
   weapon:
     name: Glock
-    damage: 10
+    damage: 40
     range: 100
   cam: {fileID: 5019587144112896744}
   mask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 567
 --- !u!114 &6351923323709482761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -686,6 +686,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2db52bd8464b0bb4aa787f051254d683, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  maxHealth: 100
+  disableOnDeath:
+  - {fileID: 5019587143930359299}
+  - {fileID: -8052853916957856631}
 --- !u!1 &5019587143961898276
 GameObject:
   m_ObjectHideFlags: 0

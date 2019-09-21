@@ -1,0 +1,1316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <CscToolPath>E:\Programs\Unity\2019.1.3f1\Editor\Data\Tools\RoslynScripts</CscToolPath>
+    <CscToolExe>unity_csc.bat</CscToolExe>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{0F59ECA5-B134-330D-B3EA-748898A8BDE5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_2019_1_3;UNITY_2019_1;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2019_1_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_SCRIPTING_GC_WBARRIERS;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;OOTII_AC;OOTII_MC;OOTII_CC;MIRROR;MIRROR_1726_OR_NEWER;MIRROR_3_0_OR_NEWER;MIRROR_3_12_OR_NEWER;ENVIRO_LW;ENVIRO_HD;CROSS_PLATFORM_INPUT;VEGETATION_STUDIO;TOUCH_REACT;GAIA_PRESENT;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2019.1.3f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>E:\Programs\Unity\2019.1.3f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>E:\Programs\Unity\2019.1.3f1\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\AwesomeTechnologies\TouchReactSystem\TouchReactCollider.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\TouchReactSystem\TouchReactMesh.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\TouchReactSystem\TouchReactSystem.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\TouchReactSystem\TRSceneViewDetector.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\BillboardSystem\BakedBillboardController.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\BillboardSystem\BillboardAtlasRenderer.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\BillboardSystem\BillboardCell.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\BillboardSystem\BillboardMeshGenerator.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\BillboardSystem\BillboardShaderDetector.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\BillboardSystem\BillboardSystem.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\ColliderSystem\ColliderSystem.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Common\Interface\ITerrainData.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Common\Interface\ITerrainShader.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Common\Interface\IWindSource.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Common\Interface\VegetationItemShaderInterface.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Common\SceneViewDetector.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Common\ScriptOrder\AwesomeTechnologiesScriptOrder.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Common\TerrainData\UnityTerrainData.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Common\VegetationStudioManager.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Common\VegetationStudioManager_Masks.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Common\VegetationStudioManager_StorageAPI.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\External\Clipper\clipper.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\External\MapMagic\MapMagicInfiniteTerrain.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\External\Octree\Scripts\BoundsOctree.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\External\Octree\Scripts\BoundsOctreeNode.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\External\Octree\Scripts\PointOctree.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\External\Octree\Scripts\PointOctreeNode.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\External\Sentieri\AddWaypointsToMask.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\External\TerraFirma\TerrafirmaExportTerrainData.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\GrassSystem\GrassPatch\GrassPatchGenerator.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\GrassSystem\GrassPatch\ProceduralGrassPlane.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\GrassSystem\GrassPatch\WindBaker.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\GrassSystem\WindController.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\MeshTerrain\MeshTerrain.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\MeshTerrain\MeshTerrainData.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\RuntimePrefabSpawner\RuntimePrefabRule.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\RuntimePrefabSpawner\RuntimePrefabSpawner.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\TerrainSystem\Splatmap\BaseSplatmapGenerator.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\TerrainSystem\Splatmap\CPUSplatmapGenerator.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\TerrainSystem\Splatmap\GPUSplatmapGenerator.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\TerrainSystem\TerrainSystem.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\AssetUtility.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\CustomList.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\Extentions\AnimationCurveExtention.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\Extentions\LayerMaskExtention.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\Extentions\ListExtentions.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\Extentions\MeshExtention.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\Extentions\TextureExtention\TextureExtention.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\LightProbeUtility.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\MakeVisible.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\MaskBackgroundCreator\MaskBackgroundCreator.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\MatrixTools.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\MeshUtils.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\ObstacleMaskCreator\ObstacleMaskCreator.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\PolygonUtility.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\PoolingSystem.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\QuadTree\IHasRect.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\QuadTree\QuadTree.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\QuadTree\QuadTreeNode.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\QuadTree\RectExtention.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\RandomNumberGenerator.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\RTHolder.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\SceneMeshRaycaster.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\SceneVegetationBaker\SceneVegetationBaker.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\SerializationSurrogateUtil.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\ShadowMaskCreator\ShadowMaskCreator.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\ShadowUtility.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\ThreadUtility.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\VegetationColorMaskCreator\VegetationColorMaskCreator.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\PersistentVegetationStorage\Importer\IVegetationImporter.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\PersistentVegetationStorage\Importer\SceneVegetationImporterSettings.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\PersistentVegetationStorage\PersistentVegetationStorage.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\PersistentVegetationStorage\PersistentVegetationStoragePackage.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\PersistentVegetationStorage\PersistentVegetationStorageTools.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\Plugins\HeightmapUtil\HeightmapUtilDLL.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\RuntimeObjectInfo.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\TextureMask\ColorTextureMask.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\TextureMask\GrayscaleDensityMask.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\TextureMask\ITextureMask.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\TextureMask\MegaSplatParamTextureMask.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\TextureMask\MegaSplatTextureMask.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\TextureMask\MicroSplatStreamControlMask.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\TextureMask\PerlinTextureMask.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\TextureMask\RGBATextureMask.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\TextureMask\TextureMaskBase.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\TextureMask\TextureMaskInfo.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\TextureMask\TextureMaskUtility.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationCachePool.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationCell.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationCellCache.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationCellCacheController.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationItemIndirectInfo.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationItemInstanceInfo.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationItemModelInfo.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationMask\Areas\BaseMaskArea.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationMask\Areas\BeaconMaskArea.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationMask\Areas\BroadCircleMaskArea.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationMask\Areas\CircleMaskArea.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationMask\Areas\LineMaskArea.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationMask\Areas\PolygonMaskArea.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationMask\VegetationBeacon.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationMask\VegetationItemMask.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationMask\VegetationMask.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationMask\VegetationMaskArea.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationMask\VegetationMaskLine.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationPackage.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationSettings.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationSystem.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationSystem_billboards.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationSystem_colliders.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationSystem_ComputeShader.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationSystem_editorAPI.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationSystem_terrainMaterial.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationSystem_textureMasks.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationSystem_vegetationCell.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationSystem_VegetationLoader.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationSystem_wind.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationTypeDetector.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\VegetationTypeSettings.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudioDemo\Scripts\ExtendedFlycam.cs" />
+    <Compile Include="Assets\AwesomeTechnologies\VegetationStudioDemo\Scripts\HarvesterDemo.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\AQUAS Integration\EnviroAquasIntegration.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\CTS Integration\EnviroCTSIntegration.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\FogVolume3 Integration\EnviroFogVolumeIntegration.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\Gaia Integration\EnviroWithGAIA.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\Lux Integration\EnviroLUXIntegration.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\MegaSplat Integration\EnviroMegaSplatIntegration.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\MicroSplat Integration\EnviroMicroSplatIntegration.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\Mirror Integration\EnviroMirrorPlayer.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\Mirror Integration\EnviroMirrorServer.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\Pegasus Integration\TriggerControlEnviro.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\Photon Integration\EnviroPhotonIntegration.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\Photon Integration\EnviroPhotonPlayerAssign.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\RTP Integration\EnviroRTPIntegration.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\UBER Integration\EnviroUBERIntegration.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\UNet Integration\EnviroUNetPlayer.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\UNet Integration\EnviroUNetServer.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\Vegetation Studio Pro\EnviroVegetationStudioPro.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\WAPI Integration\EnviroWorldAPIIntegration.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\Effects\EnviroPostProcessing.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\EnviroCore.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\EnviroEvents.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\EnviroProfile.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\EnviroReflectionProbe.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\EnviroSkyMgr.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\EnviroVegetationInstance.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\EnviroWeatherPrefab.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\EnviroWeatherPreset.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\EnviroZone.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\Utility\EnviroAudioMixerSupport.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\Utility\EnviroAudioSource.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\Utility\EnviroDayNightSwitch.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\Utility\EnviroInterior.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\Utility\EnviroLightning.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\Utility\EnviroMeshSeasons.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\Utility\EnviroReflections.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\Utility\EnviroSeasonObjectSwitcher.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\Utility\EnviroTrigger.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Core\Scripts\Utility\EnviroWindSynchronize.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Enviro Lite\Scripts\EnviroSkyLite.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Enviro Lite\Scripts\EnviroSkyRenderingLW.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Enviro Standard\Scripts\EnviroSky.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Enviro Standard\Scripts\EnviroSkyRendering.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Enviro Standard\Scripts\EnviroVolumeCloudsQuality.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Enviro Standard\Scripts\EnviroVolumeLight.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Enviro Standard\Scripts\Utilities\EnviroAdditionalCamera.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Enviro Standard\Scripts\Utilities\EnviroCloudsReflection.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Samples\Scripts\DemoUI.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Samples\Scripts\EventTest.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Samples\Scripts\FPSController.cs" />
+    <Compile Include="Assets\Enviro - Sky and Weather\Samples\Scripts\SampleHUDFPS.cs" />
+    <Compile Include="Assets\Gaia Dependencies\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
+    <Compile Include="Assets\Gaia Dependencies\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
+    <Compile Include="Assets\Gaia Dependencies\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Gaia Dependencies\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
+    <Compile Include="Assets\Gaia Dependencies\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
+    <Compile Include="Assets\Gaia Dependencies\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
+    <Compile Include="Assets\Gaia Dependencies\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
+    <Compile Include="Assets\Gaia Dependencies\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+    <Compile Include="Assets\Gaia Dependencies\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+    <Compile Include="Assets\Gaia Dependencies\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+    <Compile Include="Assets\Gaia Dependencies\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\Gaia Dependencies\Standard Assets\Utility\CurveControlledBob.cs" />
+    <Compile Include="Assets\Gaia Dependencies\Standard Assets\Utility\FOVKick.cs" />
+    <Compile Include="Assets\Gaia Dependencies\Standard Assets\Utility\LerpControlledBob.cs" />
+    <Compile Include="Assets\Gaia\3rd Party Samplers\Ambient Samples\Scripts\GaiaHDPlanarReflections.cs" />
+    <Compile Include="Assets\Gaia\3rd Party Samplers\Ambient Samples\Scripts\GaiaReflectionProbeUpdate.cs" />
+    <Compile Include="Assets\Gaia\3rd Party Samplers\Ambient Samples\Scripts\GaiaUnderWaterEffects.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Attributes\PreviewTextureAttribute.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Common\AppConfig.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Common\DropStack.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Common\LanguagePack.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Common\LocalizationCategory.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Common\LocalizationItem.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Common\UBrush.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Common\Utils.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Compatible\AQUASWaterSet.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Compatible\CountrySidePack.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Compatible\DesktopGroundCoverPackage.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Compatible\DesktopTreesPackage.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Compatible\DistingoGaiaExtension.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Compatible\GameTexturesCom.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Compatible\Tenkoku.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Compatible\ThirdPersonController.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Compatible\uConstruct.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Compatible\VillageExteriorsKit.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Compatible\VolumetricFog.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\GaiaCompatiblePackage.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\GaiaCompatiblePublisher.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\GaiaExtensionManager.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Template.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\TemplateFrame.cs" />
+    <Compile Include="Assets\Gaia\Scripts\GaiaConstants.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsArrayConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsDateConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsDictionaryConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsEnumConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsForwardConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsGuidConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsIEnumerableConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsKeyValuePairConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsNullableConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsPrimitiveConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsReflectedConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsTypeConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\fsWeakReferenceConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\Unity\AnimationCurve_DirectConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\Unity\Bounds_DirectConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\Unity\GameObject_DirectConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\Unity\Gradient_DirectConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\Unity\Keyframe_DirectConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\Unity\LayerMask_DirectConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\Unity\Rect_DirectConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Converters\Unity\Texture2D_DirectConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsAotCompilationManager.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsBaseConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsConfig.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsContext.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsConverterRegistrar.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsData.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsDirectConverter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsExceptions.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsIgnoreAttribute.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsISerializationCallbacks.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsJsonParser.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsJsonPrinter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsMemberSerialization.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsObjectAttribute.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsObjectProcessor.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsPropertyAttribute.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsResult.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\fsSerializer.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Internal\fsCyclicReferenceManager.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Internal\fsOption.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Internal\fsPortableReflection.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Internal\fsTypeExtensions.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Internal\fsVersionedType.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Internal\fsVersionManager.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Reflection\fsMetaProperty.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Reflection\fsMetaType.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Reflection\fsReflectionUtility.cs" />
+    <Compile Include="Assets\Gaia\Scripts\JsonSerialiser\Reflection\fsTypeLookup.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\GaiaDefaults.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\GaiaResource.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\GaiaSettings.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\GaiaWorldManager.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\ResourceProtoDetail.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\ResourceProtoDetailSO.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\ResourceProtoDNA.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\ResourceProtoGameObject.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\ResourceProtoGameObjectSO.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\ResourceProtoStamp.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\ResourceProtoTexture.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\ResourceProtoTextureSO.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\ResourceProtoTree.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\ResourceProtoTreeSO.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ResourcesSystem\ResourceVisualiser.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ScanningSystem\BinaryReaderMac.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ScanningSystem\Scanner.cs" />
+    <Compile Include="Assets\Gaia\Scripts\SessionSystem\GaiaOperation.cs" />
+    <Compile Include="Assets\Gaia\Scripts\SessionSystem\GaiaSession.cs" />
+    <Compile Include="Assets\Gaia\Scripts\SessionSystem\GaiaSessionManager.cs" />
+    <Compile Include="Assets\Gaia\Scripts\SpawningSystem\SpawnCriteria.cs" />
+    <Compile Include="Assets\Gaia\Scripts\SpawningSystem\Spawner.cs" />
+    <Compile Include="Assets\Gaia\Scripts\SpawningSystem\SpawnerGroup.cs" />
+    <Compile Include="Assets\Gaia\Scripts\SpawningSystem\SpawnExtensions\SpawnGrassExtension.cs" />
+    <Compile Include="Assets\Gaia\Scripts\SpawningSystem\SpawnExtensions\SpawnTextureExtension.cs" />
+    <Compile Include="Assets\Gaia\Scripts\SpawningSystem\SpawnInfo.cs" />
+    <Compile Include="Assets\Gaia\Scripts\SpawningSystem\SpawnRule.cs" />
+    <Compile Include="Assets\Gaia\Scripts\SpawningSystem\SpawnRuleExtension.cs" />
+    <Compile Include="Assets\Gaia\Scripts\SpawningSystem\TreeManager.cs" />
+    <Compile Include="Assets\Gaia\Scripts\StampingSystem\RuntimeStamper.cs" />
+    <Compile Include="Assets\Gaia\Scripts\StampingSystem\Stamper.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\FractalGenerator.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\GaiaMessages.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\GaiaPipelineUtils.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\GaiaSceneInfo.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\GaiaScriptOrder.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\GaiaSplatPrototype.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\GaiaUtils.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\HeightMap.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\QuadTree.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\ScaleTexture.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\SimplexNoiseGenerator.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\Singleton.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\TerrainHelper.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\TimedInstance.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\UnityHeightMap.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\Utils.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\WaterFlowMap.cs" />
+    <Compile Include="Assets\Gaia\Scripts\Utils\XorshiftPlus.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ValueAdds\CameraController.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ValueAdds\FrameRateManager.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ValueAdds\FreeCamera.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ValueAdds\Growth.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ValueAdds\ScreenShotter.cs" />
+    <Compile Include="Assets\Gaia\Scripts\ValueAdds\UIConfiguration.cs" />
+    <Compile Include="Assets\NatureManufacture Assets\NatureManufacture Wind\NM_Wind.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\GameSettings.cs" />
+    <Compile Include="Assets\Scripts\MatchSettings.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\PlayerMotor.cs" />
+    <Compile Include="Assets\Scripts\PlayerSetup.cs" />
+    <Compile Include="Assets\Scripts\PlayerShoot.cs" />
+    <Compile Include="Assets\Scripts\PlayerWeapon.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Networking\Enums\Enums.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Networking\Interfaces\SyncObjInterfaces.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Networking\NetMasterLite.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Networking\NetObjectLite.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Networking\Structs\FrameBase.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Networking\SyncObject.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Networking\SyncObjectTFrame.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\SimpleNetworkSync\Example\Scripts\SuperBasicController.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\SimpleNetworkSync\SimpleSyncAnimator.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\SimpleNetworkSync\SimpleSyncTransform.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\SimpleNetworkSync\Structs\AnimPassThru.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\SimpleNetworkSync\Structs\ParameterSwitches.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\BitstreamExtensions.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\EditorTools\SolidTextures.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\ElementCrusher.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\Extensions\FloatCrusherExtensions.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\Extensions\TransformExtensions.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\Extensions\UnetBitstreamExtensions.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\FloatCrushDrawer.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\QuatCrusher.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\RigidbodyCrusher.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\RigidbodyCrusherDrawer.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\SharedCrushers\SharedCrusherBase.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\SharedCrushers\SharedCrushersSO.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\SharedCrushers\SharedElementCrusher.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\SharedCrushers\SharedFloatCrusher.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\SharedCrushers\SharedRigidbodyCrusher.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\SharedCrushers\SharedTransformCrusher.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\Structs\CompressedElement.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\Structs\CompressedMatrix.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\Structs\CompressedMatrixRB.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\Structs\CompressedQuat.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\Structs\CompressedValue.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\Structs\Element.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\Structs\IncludedAxisEnum.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\Structs\Matrix.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\Structs\MatrixRB.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\TransformCrusher.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\TransformCrusherDrawer.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\UnetBitstreamExtensions.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\WorldBounds\WorldBounds.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\WorldBounds\WorldBoundsGroup.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\WorldBounds\WorldBoundsSelectAttribute.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\WorldBounds\WorldBoundsSettings.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\TransformCrusher\WorldBounds\WorldBoundsSO.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\Animator\AnimatorControllerTools.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\BitUtilities\BitArrayExt.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\Callbacks\CallbackUtilities.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\CollectBounds.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\Debugging\ConsoleToDebugBootstrap.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\Debugging\UIConsole.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\DefineTools\DefineSymbolUtils.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\DefineTools\TogglePhysics2dDefine.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\DrawerUtils.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\Example\AddPlayerOnP.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\Example\AutoDestroyUnspawned.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\Example\BasicController.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\Example\JoinLeave.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\Example\PUNSampleLauncher.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\Example\SimpleMover.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\FileIO\ScriptIO.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\GUITools\HeaderEditor.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\GUITools\ScriptableObjectDrawer.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\GUITools\ScriptableObjectGUITools.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\Interpolation\CatmullRomLerp.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\MirrorTools\MirrorCheck.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\Networking\AutoDestroyUnspawned.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\Networking\AutoDestroyWrongNetLib.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\Networking\Enums\AuthorityEnums.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\Networking\GenericSpawnPoint.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\Networking\NetAdapters\GenericNetworkBehaviour.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\Networking\NetAdapters\MasterNetAdapter.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\Networking\NetAdapters\NetAdapterInterfaces.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\Networking\NetAdapters\NetMsgCallbacks.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\Networking\NetAdapters\NetMsgSends.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\Networking\NetAdapters\NetObjAdapter.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\Networking\UnifiedNetTools.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\PrefabTools\PrefabUtils.cs" />
+    <Compile Include="Assets\SimpleNetworkSync\Utilities\SmartVars\SmartVars.cs" />
+    <Compile Include="Assets\SplineMesh\Scripts\Bezier\CubicBezierCurve.cs" />
+    <Compile Include="Assets\SplineMesh\Scripts\Bezier\Spline.cs" />
+    <Compile Include="Assets\SplineMesh\Scripts\Bezier\SplineNode.cs" />
+    <Compile Include="Assets\SplineMesh\Scripts\Bezier\SplineSample.cs" />
+    <Compile Include="Assets\SplineMesh\Scripts\Bezier\SplineSmoother.cs" />
+    <Compile Include="Assets\SplineMesh\Scripts\Example\ExampleContortAlong.cs" />
+    <Compile Include="Assets\SplineMesh\Scripts\Example\ExampleFollowSpline.cs" />
+    <Compile Include="Assets\SplineMesh\Scripts\Example\ExampleGrowingRoot.cs" />
+    <Compile Include="Assets\SplineMesh\Scripts\Example\ExampleSower.cs" />
+    <Compile Include="Assets\SplineMesh\Scripts\Example\ExampleTentacle.cs" />
+    <Compile Include="Assets\SplineMesh\Scripts\Example\ExampleTrack.cs" />
+    <Compile Include="Assets\SplineMesh\Scripts\Example\RopeBuilder.cs" />
+    <Compile Include="Assets\SplineMesh\Scripts\MeshProcessing\ExtrusionSegment.cs" />
+    <Compile Include="Assets\SplineMesh\Scripts\MeshProcessing\MeshBender.cs" />
+    <Compile Include="Assets\SplineMesh\Scripts\MeshProcessing\MeshVertex.cs" />
+    <Compile Include="Assets\SplineMesh\Scripts\MeshProcessing\SourceMesh.cs" />
+    <Compile Include="Assets\SplineMesh\Scripts\MeshProcessing\SplineExtrusion.cs" />
+    <Compile Include="Assets\SplineMesh\Scripts\MeshProcessing\SplineMeshTiling.cs" />
+    <Compile Include="Assets\SplineMesh\Scripts\Utils\CameraUtility.cs" />
+    <Compile Include="Assets\SplineMesh\Scripts\Utils\MeshUtility.cs" />
+    <Compile Include="Assets\SplineMesh\Scripts\Utils\UOUtility.cs" />
+    <None Include="Assets\Gaia\Documentation\Release Notes v1_9_2.txt" />
+    <None Include="Assets\NatureManufacture Assets\Foliage Shaders\Advanced Grass Standard.shader" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\BillboardSystem\Resources\MinPostFilter\MinPostFilter.shader" />
+    <None Include="Assets\AwesomeTechnologies\TouchReactSystem\Resources\RenderTouchBufferInstanced.shader" />
+    <None Include="Assets\NatureManufacture Assets\Foliage Shaders\Tree_Bark_Metalic_Snow.shader" />
+    <None Include="Assets\Enviro - Sky and Weather\Enviro Standard\Resources\Shaders\EnviroDownsampleDepth.shader" />
+    <None Include="Assets\Enviro - Sky and Weather\Enviro Standard\Resources\Shaders\EnviroSkybox.shader" />
+    <None Include="Assets\Enviro - Sky and Weather\Enviro Standard\Resources\Shaders\Effects\EnviroBilateralBlur.shader" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\BillboardSystem\Resources\Shaders\RenderNormalsAtlasCTI.shader" />
+    <None Include="Assets\Enviro - Sky and Weather\Core\Resources\Shaders\Effects\EnviroLightShafts.shader" />
+    <None Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\Lux Integration\Lux Integration.txt" />
+    <None Include="Assets\Enviro - Sky and Weather\Enviro Standard\Resources\Shaders\Effects\EnviroFogRendering.shader" />
+    <None Include="Assets\Mirror\Readme.txt" />
+    <None Include="Assets\NatureManufacture Assets\Advanced Foliage Pack\HD and LW RP Support Packs Foliage\Readme about rendering piplines.txt" />
+    <None Include="Assets\Mirror\License.txt" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\BillboardSystem\Resources\Shaders\RenderDiffuseAtlasSpeedtree.shader" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudioDemo\Water\DemoOcean.shader" />
+    <None Include="Assets\Gaia\3rd Party Samplers\NatureManufacture\_Readme.txt" />
+    <None Include="Assets\Gaia\3rd Party Samplers\3DForge\Documents\Village Exteriors Kit v1.2.1 - user guide.txt" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\Compute\Resources\MergeInstancedIndirectBuffers.compute" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\BillboardSystem\Resources\Shaders\RenderDiffuseAtlasCTI.shader" />
+    <None Include="Assets\Gaia\Documentation\Release Notes v1_8_0.txt" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\Extentions\TextureExtention\Resources\AlphaPadding.compute" />
+    <None Include="Assets\Enviro - Sky and Weather\Core\Shaders\Particle\EnviroWeatherParticles.shader" />
+    <None Include="Assets\SimpleNetworkSync\TransformCrusher\plugins\FloatCrusher.xml" />
+    <None Include="Assets\NatureManufacture Assets\Foliage Shaders\Advanced Grass Specular.shader" />
+    <None Include="Assets\NatureManufacture Assets\Foliage Shaders\Tree_Leaves_Metalic_Snow.shader" />
+    <None Include="Assets\NatureManufacture Assets\Foliage Shaders\Tree_Leaves_Specular_Snow.shader" />
+    <None Include="Assets\Enviro - Sky and Weather\Enviro Standard\Resources\Shaders\Effects\EnviroFogRenderingDisabled.shader" />
+    <None Include="Assets\Enviro - Sky and Weather\Enviro Lite\Resources\Shaders\EnviroLightMoonShader.shader" />
+    <None Include="Assets\NatureManufacture Assets\Foliage Shaders\Cross_Model_Shader_Snow.shader" />
+    <None Include="Assets\Gaia\3rd Party Samplers\GameTexturesDotCom\_Readme.txt" />
+    <None Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\UBER Integration\UBER Integration.txt" />
+    <None Include="Assets\Gaia\Dependencies\Package Manager\PackageImportList2019_1_LW.txt" />
+    <None Include="Assets\Enviro - Sky and Weather\Enviro Standard\Resources\Shaders\EnviroSkyboxFlatClouds.shader" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\Shaders\VS_indirect.cginc" />
+    <None Include="Assets\Enviro - Sky and Weather\Enviro Standard\Resources\Shaders\EnviroFlatCloudMap.shader" />
+    <None Include="Assets\Enviro - Sky and Weather\Enviro Standard\Resources\Shaders\EnviroRaymarchClouds.shader" />
+    <None Include="Assets\Gaia\Documentation\Release Notes v1_5_3.txt" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\BillboardSystem\Resources\Shaders\RenderNormalsAtlasTreeCreator.shader" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\External\Clipper\_License.txt" />
+    <None Include="Assets\Gaia\Documentation\Release Notes v1_5_2.txt" />
+    <None Include="Assets\Enviro - Sky and Weather\Enviro Standard\Resources\Shaders\EnviroCloudsCompose.shader" />
+    <None Include="Assets\Gaia\Documentation\Release Notes v1_9_4.txt" />
+    <None Include="Assets\Gaia\Documentation\Release Notes v1_9_5.txt" />
+    <None Include="Assets\SimpleNetworkSync\Compression\plugins\ByteConverter.xml" />
+    <None Include="Assets\Enviro - Sky and Weather\Core\Shaders\Transparent\EnviroTransparent.shader" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\ShadowMaskCreator\Resources\DecodeShadowHeight.compute" />
+    <None Include="Assets\NatureManufacture Assets\Foliage Shaders\Advanced Grass Specular Snow.shader" />
+    <None Include="Assets\Gaia\Documentation\Release Notes v1_9_3_1.txt" />
+    <None Include="Assets\Enviro - Sky and Weather\Enviro Standard\Resources\Shaders\Core\EnviroNoiseCore.cginc" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\GrassSystem\a_grass.cginc" />
+    <None Include="Assets\Enviro - Sky and Weather\Core\Resources\Shaders\EnviroReflectionProbe.shader" />
+    <None Include="Assets\Enviro - Sky and Weather\Enviro Lite\Resources\Shaders\EnviroLightFogRendering.shader" />
+    <None Include="Assets\Gaia\Documentation\Release Notes v1_9_3.txt" />
+    <None Include="Assets\Gaia\Dependencies\Package Manager\PackageImportList2018_3_LW.txt" />
+    <None Include="Assets\Gaia\3rd Party Samplers\Ambient Samples\Readme.txt" />
+    <None Include="Assets\NatureManufacture Assets\Foliage Shaders\NMWindTouchRect.cginc" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\Compute\Resources\GPUFrustumCulling.compute" />
+    <None Include="Assets\NatureManufacture Assets\Foliage Shaders\Cross_Model_Shader.shader" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\BillboardSystem\Resources\Shaders\RenderNormalsAtlas.shader" />
+    <None Include="Assets\Gaia\3rd Party Samplers\Ambient Samples\Ambient Water Sample\Shader\2019 Shaders\2019 Water Sample HD.txt" />
+    <None Include="Assets\Gaia\Scripts\JsonSerialiser\_ReadMe.txt" />
+    <None Include="Assets\NatureManufacture Assets\Object Shaders\Standard_Specular_Snow.shader" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\BillboardSystem\Resources\MinPostFilter\copyRGB.shader" />
+    <None Include="Assets\Gaia\3rd Party Samplers\Ambient Samples\Ambient Water Sample\Shader\Simple Water Sample LW.txt" />
+    <None Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\MegaSplat Integration\MegaSplat Integration.txt" />
+    <None Include="Assets\SimpleNetworkSync\Utilities\plugins\DebugX.xml" />
+    <None Include="Assets\Gaia\3rd Party Samplers\Ambient Samples\Ambient Water Sample\Shader\Simple Water Sample.shader" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\Resources\TightenAlpha.shader" />
+    <None Include="Assets\Enviro - Sky and Weather\Enviro Standard\Resources\Shaders\Core\EnviroVolumeLightCore.cginc" />
+    <None Include="Assets\NatureManufacture Assets\Dynamic Nature - Mountain Tree Pack\Readme about resolution.txt" />
+    <None Include="Assets\Enviro - Sky and Weather\Enviro Standard\Resources\Shaders\Core\EnviroVolumeCloudsCore.cginc" />
+    <None Include="Assets\NatureManufacture Assets\Foliage Shaders\Advanced Grass Light.shader" />
+    <None Include="Assets\NatureManufacture Assets\Object Shaders\Standard_Metalic_Snow CutOut.shader" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\GrassSystem\AGrass.shader" />
+    <None Include="Assets\Gaia\Dependencies\Package Manager\PackageImportList2018_1.txt" />
+    <None Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\MicroSplat Integration\MicroSplat Integration.txt" />
+    <None Include="Assets\Gaia\Documentation\Release Notes v1_9_5_1.txt" />
+    <None Include="Assets\NatureManufacture Assets\Foliage Shaders\NMWindNoShiver.cginc" />
+    <None Include="Assets\Enviro - Sky and Weather\Core\Shaders\Particle\EnviroParticlesAdditive.shader" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\Utility\ShadowMaskCreator\Resources\ShadowHeight.shader" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\BillboardSystem\Resources\Shaders\ATree.shader" />
+    <None Include="Assets\NatureManufacture Assets\Foliage Shaders\Advanced Grass Standard Snow.shader" />
+    <None Include="Assets\NatureManufacture Assets\Foliage Shaders\Advanced Grass Light Snow.shader" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\External\Clipper\Readme.txt" />
+    <None Include="Assets\NatureManufacture Assets\Advanced Foliage Pack\HD and LW RP Support Packs Foliage\README - 5.7 HD RP Import Foliage.txt" />
+    <None Include="Assets\Gaia\Scripts\ExtensionSystem\GaiaXtnFooter.txt" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\GrassSystem\a_indirect.cginc" />
+    <None Include="Assets\SimpleNetworkSync\TransformCrusher\plugins\QuatCompress.xml" />
+    <None Include="Assets\Gaia\3rd Party Samplers\Synty Studios\Readme.txt" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\Compute\Resources\CreateInverseMatrix.compute" />
+    <None Include="Assets\Enviro - Sky and Weather\Enviro Standard\Resources\Shaders\EnviroBlit.shader" />
+    <None Include="Assets\Gaia\3rd Party Samplers\Synty Studios\GeNa Spawners\Readme.txt" />
+    <None Include="Assets\Enviro - Sky and Weather\Enviro Standard\Resources\Shaders\Effects\EnviroDistanceBlur.shader" />
+    <None Include="Assets\Gaia\3rd Party Samplers\README.txt" />
+    <None Include="Assets\NatureManufacture Assets\Dynamic Nature - Mountain Tree Pack\HD and LW RP Support Packs Mountain Trees\README - 5.7 HD RP Import.txt" />
+    <None Include="Assets\Gaia\Dependencies\Package Manager\PackageImportList2019_1_Builtin.txt" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\BillboardSystem\Resources\Shaders\a_tree_baked.cginc" />
+    <None Include="Assets\Gaia\Scripts\ExtensionSystem\GaiaXtnHeader.txt" />
+    <None Include="Assets\NatureManufacture Assets\Dynamic Nature - Mountain Tree Pack\HD and LW RP Support Packs Mountain Trees\Readme about rendering piplines support.txt" />
+    <None Include="Assets\SimpleNetworkSync\TransformCrusher\plugins\HalFloat.xml" />
+    <None Include="Assets\Gaia Dependencies\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Gaia\Documentation\Release Notes v1_6_1.txt" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\BillboardSystem\Resources\Shaders\RenderDiffuseAtlasTreeCreator.shader" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\BillboardSystem\Resources\Shaders\RenderDiffuseAtlasNormal.shader" />
+    <None Include="Assets\Gaia\Dependencies\Package Manager\PackageImportList2018_3_Builtin.txt" />
+    <None Include="Assets\NatureManufacture Assets\Foliage Shaders\NM_indirect.cginc" />
+    <None Include="Assets\Gaia\3rd Party Samplers\Turboscalpeur\Readme.txt" />
+    <None Include="Assets\NatureManufacture Assets\Object Shaders\NM_indirect.cginc" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\External\Octree\_Licence.txt" />
+    <None Include="Assets\NatureManufacture Assets\Foliage Shaders\Tree_Leaves_Metalic.shader" />
+    <None Include="Assets\Enviro - Sky and Weather\Enviro Standard\Resources\Shaders\EnviroShadowCookie.shader" />
+    <None Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\AQUAS Integration\AQUAS Integration.txt" />
+    <None Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\RTP Integration\RTP Integration.txt" />
+    <None Include="Assets\Gaia\Dependencies\Package Manager\PackageImportList2018_4_Builtin.txt" />
+    <None Include="Assets\Gaia\Dependencies\Package Manager\PackageImportList2018_4_HD.txt" />
+    <None Include="Assets\Enviro - Sky and Weather\Enviro Standard\Resources\Shaders\Effects\EnviroFogRenderingSimple.shader" />
+    <None Include="Assets\Gaia\Dependencies\Package Manager\PackageImportList2018_3_HD.txt" />
+    <None Include="Assets\Enviro - Sky and Weather\Core\Shaders\Particle\EnviroWeatherParticlesAdditive.shader" />
+    <None Include="Assets\Enviro - Sky and Weather\Enviro Lite\Resources\Shaders\EnviroLightMoonShaderCustom.shader" />
+    <None Include="Assets\SimpleNetworkSync\SimpleNetworkSync\Example\Unpack a Demo.txt" />
+    <None Include="Assets\Enviro - Sky and Weather\Core\Shaders\Particle\EnviroParticlesLightning.shader" />
+    <None Include="Assets\Gaia\Documentation\Release Notes v1_9_0.txt" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\Common\Resources\TerrainTextures\_Licence.txt" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\Resources\RenderVegetationColorMask.shader" />
+    <None Include="Assets\Gaia\Dependencies\Package Manager\PackageImportList2018_2.txt" />
+    <None Include="Assets\Prototyping\Prototyping Textures\Documentation.txt" />
+    <None Include="Assets\NatureManufacture Assets\Object Shaders\Standard_Metalic_Snow.shader" />
+    <None Include="Assets\Gaia\Dependencies\Package Manager\PackageImportList2019_1_HD.txt" />
+    <None Include="Assets\Gaia\Documentation\Release Notes v1_6_0.txt" />
+    <None Include="Assets\Gaia\3rd Party Samplers\Ambient Samples\Ambient Water Sample\Shader\Simple Water Sample HD.txt" />
+    <None Include="Assets\NatureManufacture Assets\Third-Party Notices.txt" />
+    <None Include="Assets\Enviro - Sky and Weather\Core\Resources\Shaders\EnviroSkyboxSimple.shader" />
+    <None Include="Assets\Gaia\Documentation\Release Notes v1_9_1.txt" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\GrassSystem\AGrassWind-A.shader" />
+    <None Include="Assets\Gaia\Documentation\Release Notes v1_7_0.txt" />
+    <None Include="Assets\Enviro - Sky and Weather\Core\Resources\Shaders\EnviroParticleClouds.shader" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\Shaders\TerrainHeatMap.shader" />
+    <None Include="Assets\NatureManufacture Assets\Foliage Shaders\Tree_Bark_Specular.shader" />
+    <None Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\FogVolume3 Integration\Fog Volume 3 Integration.txt" />
+    <None Include="Assets\Gaia Dependencies\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+    <None Include="Assets\SplineMesh\Doc.txt" />
+    <None Include="Assets\Enviro - Sky and Weather\Update Notes.txt" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\BillboardSystem\Resources\Shaders\ATrees.shader" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\External\CurveEditor\_Licence.txt" />
+    <None Include="Assets\Enviro - Sky and Weather\Core\Shaders\Particle\EnviroLitParticles.shader" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\TerrainSystem\Splatmap\Resources\GPUSplatMap.compute" />
+    <None Include="Assets\NatureManufacture Assets\Foliage Shaders\Tree_Bark_Metalic.shader" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\VegetationSystem\Compute\Resources\CombineInstances.compute" />
+    <None Include="Assets\Enviro - Sky and Weather\Enviro Standard\Resources\Shaders\Effects\EnviroVolumeLight.shader" />
+    <None Include="Assets\Enviro - Sky and Weather\Enviro Standard\Resources\Shaders\Core\EnviroBlurCore.cginc" />
+    <None Include="Assets\Enviro - Sky and Weather\Enviro Standard\Resources\Shaders\EnviroMoonShader.shader" />
+    <None Include="Assets\Enviro - Sky and Weather\Enviro Standard\Resources\Shaders\EnviroWeatherMap.shader" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\BillboardSystem\Resources\Shaders\ATrees_baked.shader" />
+    <None Include="Assets\AwesomeTechnologies\TouchReactSystem\Resources\RenderTouchBuffer.shader" />
+    <None Include="Assets\Enviro - Sky and Weather\Core\Resources\Shaders\Effects\EnviroClearLightShafts.shader" />
+    <None Include="Assets\Enviro - Sky and Weather\Core\Shaders\Particle\EnviroParticlesAlphaBlend.shader" />
+    <None Include="Assets\NatureManufacture Assets\Foliage Shaders\Tree_Leaves_Specular.shader" />
+    <None Include="Assets\Enviro - Sky and Weather\Enviro Lite\Resources\Shaders\EnviroLightFogRenderingSimple.shader" />
+    <None Include="Assets\Gaia Dependencies\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\NatureManufacture Assets\Foliage Shaders\Tree_Bark_Specular_Snow.shader" />
+    <None Include="Assets\NatureManufacture Assets\Foliage Shaders\NMWind.cginc" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\MeshTerrain\Resources\MeshTerrainDebug.shader" />
+    <None Include="Assets\NatureManufacture Assets\Object Shaders\Standard_Specular_Snow CutOut.shader" />
+    <None Include="Assets\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\CTS Integration\CTS Integration Quickstart.txt" />
+    <None Include="Assets\Gaia\Documentation\Release Notes v1_5_1.txt" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\BillboardSystem\Resources\Shaders\a_tree.cginc" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\GrassSystem\microsplat_indirect.cginc" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\GrassSystem\AGrassWind-R.shader" />
+    <None Include="Assets\SimpleNetworkSync\Compression\plugins\Bitstream.xml" />
+    <None Include="Assets\Enviro - Sky and Weather\version.txt" />
+    <None Include="Assets\Enviro - Sky and Weather\Core\Resources\Shaders\EnviroBakeCubemap.shader" />
+    <None Include="Assets\AwesomeTechnologies\Readme_VegetationStudio_DemoScene.txt" />
+    <None Include="Assets\Gaia\3rd Party Samplers\MotuProprio\RealRock Vol I\Readme.txt" />
+    <None Include="Assets\AwesomeTechnologies\VegetationStudio\GrassSystem\GrassPatchVertexColor.shader" />
+    <None Include="Assets\Enviro - Sky and Weather\Core\Resources\Shaders\Core\EnviroFogCore.cginc" />
+    <None Include="Assets\Gaia\Dependencies\Package Manager\PackageImportList2018_4_LW.txt" />
+    <None Include="Assets\Gaia\Documentation\Release Notes v1_5_0.txt" />
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>E:/Repositories/ZTrain/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>E:/Repositories/ZTrain/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>E:/Repositories/ZTrain/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>E:/Repositories/ZTrain/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>E:/Repositories/ZTrain/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>E:/Repositories/ZTrain/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>E:/Repositories/ZTrain/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>E:/Repositories/ZTrain/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>E:/Repositories/ZTrain/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.FileSystemHttpModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Locator">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/Managed/Unity.Locator.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="MathLib">
+      <HintPath>E:/Repositories/ZTrain/Assets/AwesomeTechnologies/VegetationStudio/Utility/Math/MathLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CecilX">
+      <HintPath>E:/Repositories/ZTrain/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CecilX.Mdb">
+      <HintPath>E:/Repositories/ZTrain/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CecilX.Pdb">
+      <HintPath>E:/Repositories/ZTrain/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CecilX.Rocks">
+      <HintPath>E:/Repositories/ZTrain/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Telepathy">
+      <HintPath>E:/Repositories/ZTrain/Assets/Mirror/Runtime/Transport/Telepathy/Telepathy.dll</HintPath>
+    </Reference>
+    <Reference Include="Bitstream">
+      <HintPath>E:/Repositories/ZTrain/Assets/SimpleNetworkSync/Compression/plugins/Bitstream.dll</HintPath>
+    </Reference>
+    <Reference Include="ByteConverter">
+      <HintPath>E:/Repositories/ZTrain/Assets/SimpleNetworkSync/Compression/plugins/ByteConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="FloatCrusher">
+      <HintPath>E:/Repositories/ZTrain/Assets/SimpleNetworkSync/TransformCrusher/plugins/FloatCrusher.dll</HintPath>
+    </Reference>
+    <Reference Include="HalFloat">
+      <HintPath>E:/Repositories/ZTrain/Assets/SimpleNetworkSync/TransformCrusher/plugins/HalFloat.dll</HintPath>
+    </Reference>
+    <Reference Include="QuatCompress">
+      <HintPath>E:/Repositories/ZTrain/Assets/SimpleNetworkSync/TransformCrusher/plugins/QuatCompress.dll</HintPath>
+    </Reference>
+    <Reference Include="DebugX">
+      <HintPath>E:/Repositories/ZTrain/Assets/SimpleNetworkSync/Utilities/plugins/DebugX.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>E:/Repositories/ZTrain/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>E:/Repositories/ZTrain/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>E:/Repositories/ZTrain/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Mirror.Weaver.csproj">
+      <Project>{1249470D-B422-C3F6-090A-18BF17CC1A40}</Project>
+      <Name>Mirror.Weaver</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Components.csproj">
+      <Project>{E662DDA6-DCDF-B376-D10D-E47F34827BD9}</Project>
+      <Name>Mirror.Components</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Examples.csproj">
+      <Project>{901EDE99-5332-D42B-AD74-B5ED30A4D47E}</Project>
+      <Name>Mirror.Examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="EmoCompressUtilsASMDEF.csproj">
+      <Project>{8FC6E7EE-1E84-B63A-2C08-E1F52881F476}</Project>
+      <Name>EmoCompressUtilsASMDEF</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.csproj">
+      <Project>{1D4151D7-9DD1-C299-774D-2DB11522DCD5}</Project>
+      <Name>Mirror</Name>
+    </ProjectReference>
+    <ProjectReference Include="HalfFloatASMDEF.csproj">
+      <Project>{65938B3C-799B-B78D-2523-E4D5F44566DF}</Project>
+      <Name>HalfFloatASMDEF</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Editor.csproj">
+      <Project>{1DF2B746-4BCB-FAFE-EC83-8778378F641C}</Project>
+      <Name>Mirror.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="BitpackersASMDEF.csproj">
+      <Project>{6B8C3F07-6B3B-ECBD-1D9C-5CA2EE60F7E8}</Project>
+      <Name>BitpackersASMDEF</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
