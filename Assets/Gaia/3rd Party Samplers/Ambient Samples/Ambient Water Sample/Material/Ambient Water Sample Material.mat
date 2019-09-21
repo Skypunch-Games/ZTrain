@@ -79,7 +79,7 @@ Material:
     - _FoamOpacity: 0.4
     - _FoamSmoothness: 1
     - _FoamSpecular: 1
-    - _GlobalTiling: 2048
+    - _GlobalTiling: 512
     - _GlossyReflections: 1
     - _NormalScale: 0.2
     - _ReflectionAmount: 1
