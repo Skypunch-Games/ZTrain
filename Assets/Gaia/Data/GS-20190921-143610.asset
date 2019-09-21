@@ -46,7 +46,7 @@ MonoBehaviour:
     m_operationDataJson:
     - Assets/Gaia/Data/GD Desktop Settings.asset
     - Assets/Gaia/Data/GR NatureManufacture.asset
-    m_isFoldedOut: 0
+    m_isFoldedOut: 1
   - m_description: Stamping Mountain Field 0924 e
     m_operationType: 5
     m_isActive: 1
@@ -59,7 +59,7 @@ MonoBehaviour:
       Field 0924 e","path":"Assets/Gaia/Stamps/Mountains/Mountain Field 0924 e.jpg","width":1024,"height":1024},"m_x":0.0,"m_y":64.1911773681641,"m_z":0.0,"m_width":4.99512195587158,"m_height":2.16734504699707,"m_rotation":0.0,"m_stickBaseToGround":false,"m_resourcesPath":"Assets/Gaia/Data/GR
       NatureManufacture.asset","m_invertStamp":false,"m_normaliseStamp":false,"m_baseLevel":0.0230000000447035,"m_drawStampBase":true,"m_stampOperation":"RaiseHeight","m_smoothIterations":0,"m_blendStrength":0.5,"m_stencilHeight":1.0,"m_heightModifier":{"keys":[{"time":0.0,"value":0.0,"inTangent":0.0,"outTangent":1.0,"weightedMode":"None","inWeight":0.0,"outWeight":0.0},{"time":1.0,"value":1.0,"inTangent":1.0,"outTangent":0.0,"weightedMode":"None","inWeight":0.0,"outWeight":0.0}],"preWrapMode":"ClampForever","postWrapMode":"ClampForever"},"m_distanceMask":{"keys":[{"time":1.0,"value":1.0,"inTangent":0.0,"outTangent":0.0,"weightedMode":"None","inWeight":0.0,"outWeight":0.0},{"time":1.0,"value":1.0,"inTangent":0.0,"outTangent":0.0,"weightedMode":"None","inWeight":0.0,"outWeight":0.0}],"preWrapMode":"ClampForever","postWrapMode":"ClampForever"},"m_areaMaskMode":"ImageGreyScale","m_imageMask":{"present":true,"name":"Island
       Mask 1","path":"Assets/Gaia/Masks/Island Mask 1.jpg","width":1024,"height":1024},"m_imageMaskInvert":true,"m_imageMaskNormalise":true,"m_imageMaskFlip":false,"m_imageMaskSmoothIterations":3,"m_noiseMaskSeed":0.0,"m_noiseMaskOctaves":8,"m_noiseMaskPersistence":0.25,"m_noiseMaskFrequency":1.0,"m_noiseMaskLacunarity":1.5,"m_noiseZoom":10.0,"m_alwaysShow":false,"m_showBase":false,"m_showSeaLevel":true,"m_showRulers":false,"m_showTerrainHelper":false}'
-    m_isFoldedOut: 0
+    m_isFoldedOut: 1
   - m_description: Stamping Mountain Field 0924 e
     m_operationType: 5
     m_isActive: 1
@@ -72,4 +72,26 @@ MonoBehaviour:
       Field 0924 e","path":"Assets/Gaia/Stamps/Mountains/Mountain Field 0924 e.jpg","width":1024,"height":1024},"m_x":0.0,"m_y":52.931770324707,"m_z":0.0,"m_width":4.99512195587158,"m_height":2.16734504699707,"m_rotation":0.0,"m_stickBaseToGround":false,"m_resourcesPath":"Assets/Gaia/Data/GR
       NatureManufacture.asset","m_invertStamp":false,"m_normaliseStamp":false,"m_baseLevel":0.0230000000447035,"m_drawStampBase":true,"m_stampOperation":"RaiseHeight","m_smoothIterations":0,"m_blendStrength":0.5,"m_stencilHeight":1.0,"m_heightModifier":{"keys":[{"time":0.0,"value":0.0,"inTangent":0.0,"outTangent":1.0,"weightedMode":"None","inWeight":0.0,"outWeight":0.0},{"time":1.0,"value":1.0,"inTangent":1.0,"outTangent":0.0,"weightedMode":"None","inWeight":0.0,"outWeight":0.0}],"preWrapMode":"ClampForever","postWrapMode":"ClampForever"},"m_distanceMask":{"keys":[{"time":1.0,"value":1.0,"inTangent":0.0,"outTangent":0.0,"weightedMode":"None","inWeight":0.0,"outWeight":0.0},{"time":1.0,"value":1.0,"inTangent":0.0,"outTangent":0.0,"weightedMode":"None","inWeight":0.0,"outWeight":0.0}],"preWrapMode":"ClampForever","postWrapMode":"ClampForever"},"m_areaMaskMode":"ImageGreyScale","m_imageMask":{"present":true,"name":"Island
       Mask 1","path":"Assets/Gaia/Masks/Island Mask 1.jpg","width":1024,"height":1024},"m_imageMaskInvert":true,"m_imageMaskNormalise":true,"m_imageMaskFlip":false,"m_imageMaskSmoothIterations":3,"m_noiseMaskSeed":0.0,"m_noiseMaskOctaves":8,"m_noiseMaskPersistence":0.25,"m_noiseMaskFrequency":1.0,"m_noiseMaskLacunarity":1.5,"m_noiseZoom":10.0,"m_alwaysShow":false,"m_showBase":false,"m_showSeaLevel":true,"m_showRulers":false,"m_showTerrainHelper":false}'
+    m_isFoldedOut: 1
+  - m_description: Stamping River Valley 3
+    m_operationType: 5
+    m_isActive: 1
+    m_generatedByName: Stamper
+    m_generatedByID: 5c079d27-62a6-4f15-b537-00b85c1a9dff
+    m_generatedByType: Gaia.Stamper
+    m_operationDateTime: 9/21/2019 2:51:55 PM
+    m_operationDataJson:
+    - '{"m_stampID":"5c079d27-62a6-4f15-b537-00b85c1a9dff","m_stampPreviewImage":{"present":true,"name":"River
+      Valley 3","path":"Assets/Gaia/Stamps/Rivers/River Valley 3.jpg","width":1024,"height":1024},"m_x":-320.814575195313,"m_y":58.7956237792969,"m_z":-136.959899902344,"m_width":2.81661772727966,"m_height":2.02606678009033,"m_rotation":-71.0499725341797,"m_stickBaseToGround":false,"m_resourcesPath":"","m_invertStamp":true,"m_normaliseStamp":true,"m_baseLevel":0.0430000014603138,"m_drawStampBase":true,"m_stampOperation":"StencilHeight","m_smoothIterations":0,"m_blendStrength":0.5,"m_stencilHeight":-34.8226623535156,"m_heightModifier":{"keys":[{"time":0.0,"value":0.0,"inTangent":0.0,"outTangent":1.0,"weightedMode":"None","inWeight":0.0,"outWeight":0.0},{"time":1.0,"value":1.0,"inTangent":1.0,"outTangent":0.0,"weightedMode":"None","inWeight":0.0,"outWeight":0.0}],"preWrapMode":"ClampForever","postWrapMode":"ClampForever"},"m_distanceMask":{"keys":[{"time":0.0,"value":1.0,"inTangent":0.0,"outTangent":0.0,"weightedMode":"None","inWeight":0.0,"outWeight":0.0},{"time":1.0,"value":0.0,"inTangent":0.0,"outTangent":0.0,"weightedMode":"None","inWeight":0.0,"outWeight":0.0}],"preWrapMode":"ClampForever","postWrapMode":"ClampForever"},"m_areaMaskMode":"None","m_imageMask":null,"m_imageMaskInvert":false,"m_imageMaskNormalise":false,"m_imageMaskFlip":false,"m_imageMaskSmoothIterations":3,"m_noiseMaskSeed":0.0,"m_noiseMaskOctaves":8,"m_noiseMaskPersistence":0.25,"m_noiseMaskFrequency":1.0,"m_noiseMaskLacunarity":1.5,"m_noiseZoom":10.0,"m_alwaysShow":false,"m_showBase":true,"m_showSeaLevel":true,"m_showRulers":false,"m_showTerrainHelper":false}'
+    m_isFoldedOut: 0
+  - m_description: Stamping River Valley 3
+    m_operationType: 5
+    m_isActive: 1
+    m_generatedByName: Stamper
+    m_generatedByID: 5c079d27-62a6-4f15-b537-00b85c1a9dff
+    m_generatedByType: Gaia.Stamper
+    m_operationDateTime: 9/21/2019 2:53:46 PM
+    m_operationDataJson:
+    - '{"m_stampID":"5c079d27-62a6-4f15-b537-00b85c1a9dff","m_stampPreviewImage":{"present":true,"name":"River
+      Valley 3","path":"Assets/Gaia/Stamps/Rivers/River Valley 3.jpg","width":1024,"height":1024},"m_x":-47.5999984741211,"m_y":22.6000003814697,"m_z":15.8999996185303,"m_width":1.67453551292419,"m_height":1.20453715324402,"m_rotation":273.429534912109,"m_stickBaseToGround":false,"m_resourcesPath":"","m_invertStamp":true,"m_normaliseStamp":true,"m_baseLevel":0.0430000014603138,"m_drawStampBase":true,"m_stampOperation":"StencilHeight","m_smoothIterations":0,"m_blendStrength":0.5,"m_stencilHeight":-34.8226623535156,"m_heightModifier":{"keys":[{"time":0.0,"value":0.0,"inTangent":0.0,"outTangent":1.0,"weightedMode":"None","inWeight":0.0,"outWeight":0.0},{"time":1.0,"value":1.0,"inTangent":1.0,"outTangent":0.0,"weightedMode":"None","inWeight":0.0,"outWeight":0.0}],"preWrapMode":"ClampForever","postWrapMode":"ClampForever"},"m_distanceMask":{"keys":[{"time":0.0,"value":1.0,"inTangent":0.0,"outTangent":0.0,"weightedMode":"None","inWeight":0.0,"outWeight":0.0},{"time":1.0,"value":0.0,"inTangent":0.0,"outTangent":0.0,"weightedMode":"None","inWeight":0.0,"outWeight":0.0}],"preWrapMode":"ClampForever","postWrapMode":"ClampForever"},"m_areaMaskMode":"None","m_imageMask":null,"m_imageMaskInvert":false,"m_imageMaskNormalise":false,"m_imageMaskFlip":false,"m_imageMaskSmoothIterations":3,"m_noiseMaskSeed":0.0,"m_noiseMaskOctaves":8,"m_noiseMaskPersistence":0.25,"m_noiseMaskFrequency":1.0,"m_noiseMaskLacunarity":1.5,"m_noiseZoom":10.0,"m_alwaysShow":false,"m_showBase":true,"m_showSeaLevel":true,"m_showRulers":false,"m_showTerrainHelper":false}'
     m_isFoldedOut: 0
