@@ -298,6 +298,9 @@
     <Reference Include="JetBrains.Rider.Unity.Editor.Plugin.Repacked">
       <HintPath>E:/Repositories/ZTrain/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll</HintPath>
     </Reference>
+    <Reference Include="OdinSerializer">
+      <HintPath>E:/Repositories/ZTrain/Assets/Rucksack/General2/Runtime/Serialization/Plugins/OdinSerializer.dll</HintPath>
+    </Reference>
     <Reference Include="Bitstream">
       <HintPath>E:/Repositories/ZTrain/Assets/SimpleNetworkSync/Compression/plugins/Bitstream.dll</HintPath>
     </Reference>
@@ -330,9 +333,6 @@
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>E:/Repositories/ZTrain/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="OdinSerializer">
-      <HintPath>E:/Repositories/ZTrain/Assets/Rucksack/General2/Runtime/Serialization/Plugins/OdinSerializer.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>E:/Programs/Unity/2019.1.3f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
