@@ -395,6 +395,7 @@
     <Compile Include="Assets\Scripts\PlayerSetup.cs" />
     <Compile Include="Assets\Scripts\PlayerShoot.cs" />
     <Compile Include="Assets\Scripts\PlayerWeapon.cs" />
+    <Compile Include="Assets\Scripts\WeaponManager.cs" />
     <Compile Include="Assets\SimpleNetworkSync\Networking\Enums\Enums.cs" />
     <Compile Include="Assets\SimpleNetworkSync\Networking\Interfaces\SyncObjInterfaces.cs" />
     <Compile Include="Assets\SimpleNetworkSync\Networking\NetMasterLite.cs" />

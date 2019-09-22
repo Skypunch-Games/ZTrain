@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField]
+    private string weaponLayerName = "Weapon";
+
     public static GameManager instance;
 
     public GameSettings gameSettings;

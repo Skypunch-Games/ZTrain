@@ -1,22 +1,19 @@
 ﻿using UnityEngine;
 using Mirror;
 
+[RequireComponent (typeof(WeaponManager))]
 public class PlayerShoot : NetworkBehaviour
 {
     private const string PLAYER_TAG = "Player";
-
-    [SerializeField]
-    private PlayerWeapon weapon;
-    [SerializeField]
-    private GameObject weaponGFX;
-    [SerializeField]
-    private string weaponLayerName = "Weapon";
 
     [SerializeField]
     private Camera cam;
 
     [SerializeField]
     private LayerMask mask;
+
+    private PlayerWeapon currentWeapon;
+    private WeaponManager weaponManager;
 
 
     void Start()
@@ -27,12 +24,14 @@ public class PlayerShoot : NetworkBehaviour
             this.enabled = false;
         }
 
-        weaponGFX.layer = LayerMask.NameToLayer(weaponLayerName);
+        weaponManager = GetComponent<WeaponManager>();
     }
 
 
     void Update()
     {
+        currentWeapon = weaponManager.GetCurrentWeapon();
+
         if (Input.GetButtonDown("Fire1"))
         {
             Shoot();
@@ -44,11 +43,11 @@ public class PlayerShoot : NetworkBehaviour
     void Shoot()
     {
         RaycastHit _hit;
-        if (Physics.Raycast(cam.transform.position, cam.transform.forward, out _hit, weapon.range, mask))
+        if (Physics.Raycast(cam.transform.position, cam.transform.forward, out _hit, currentWeapon.range, mask))
         {
             if (_hit.collider.tag == PLAYER_TAG)
             {
-                CmdPlayerHasBeenShot(_hit.collider.name, weapon.damage);
+                CmdPlayerHasBeenShot(_hit.collider.name, currentWeapon.damage);
             }
         }
     }
